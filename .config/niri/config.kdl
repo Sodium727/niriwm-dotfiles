@@ -258,8 +258,10 @@ spawn-at-startup "waybar"
 spawn-at-startup "fcitx5"
 spawn-at-startup "swaync"
 spawn-at-startup "sh" "-c" "wl-paste --watch cliphist store"
+spawn-at-startup "sh" "-c" "wal -R"
 spawn-at-startup "sh" "-c" "gammastep -l 20.9957:106.6881 -m wayland"
-spawn-at-startup "sh" "-c" "swaybg -i ~/.config/niri/bg/wallpaper.jpg --mode fill";
+// spawn-at-startup "sh" "-c" "swaybg -i ~/.config/niri/bg/wallpaper.jpg --mode fill";
+spawn-at-startup "sh" "-c" "swaybg -i ~/Pictures/Wallpapers/white.jpg --mode fill";
 spawn-at-startup "sh" "-c" "swayidle -w timeout 300 'swaylock' timeout 600 'niri msg output LDVS-1 off' resume 'niri msg output LDVS-1 on' before-sleep 'swaylock'"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
@@ -361,10 +363,16 @@ binds {
 
   // Example volume keys mappings for PipeWire & WirePlumber.
   // The allow-when-locked=true property makes them work even when the session is locked.
-  XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-  XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
+  XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
+  XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05-"; }
   XF86AudioMute    allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
   XF86AudioMicMute   allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
+  XF86AudioPlay         allow-when-locked=true { spawn "playerctl" "play-pause"; }
+  XF86AudioNext         allow-when-locked=true { spawn "playerctl" "next"; }
+  XF86AudioPrev         allow-when-locked=true { spawn "playerctl" "previous"; }
+  XF86AudioStop         allow-when-locked=true { spawn "playerctl" "stop"; }
+  XF86AudioMedia        allow-when-locked=true { spawn "playerctl" "play-pause"; }
+  XF86Favorites         allow-when-locked=true { spawn "playerctl" "shuffle" "Toggle"; }
 
   // Open/close the Overview: a zoomed-out view of workspaces and windows.
   // You can also move the mouse into the top-left hot corner,
