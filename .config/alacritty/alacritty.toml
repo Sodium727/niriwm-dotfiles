@@ -1,0 +1,49 @@
+#   █████╗ ██╗      █████╗  ██████╗██████╗ ██╗████████╗████████╗██╗   ██╗
+#  ██╔══██╗██║     ██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝╚══██╔══╝╚██╗ ██╔╝
+#  ███████║██║     ███████║██║     ██████╔╝██║   ██║      ██║    ╚████╔╝
+#  ██╔══██║██║     ██╔══██║██║     ██╔══██╗██║   ██║      ██║     ╚██╔╝
+#  ██║  ██║███████╗██║  ██║╚██████╗██║  ██║██║   ██║      ██║      ██║
+#  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝
+#	gh0stzk - https://github.com/gh0stzk/dotfiles
+
+[general]
+import = [
+"themes/isabel.toml",
+"fonts.toml",
+]
+
+live_config_reload = true
+
+[env]
+TERM = "alacritty"
+WINIT_X11_SCALE_FACTOR = "1.0"
+SHELL = "/sbin/zsh"
+
+[cursor]
+blink_interval = 0
+unfocused_hollow = false
+thickness = 0.15
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+decorations = "none"
+dynamic_title = false
+opacity = 0.85
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+resize_increments = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[bell]
+# animation = "Linear"
+# duration = 0
+# command = { program = "paplay", args = ["/usr/share/sounds/freedesktop/stereo/dialog-error.oga"] }
