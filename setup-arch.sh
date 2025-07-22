@@ -23,7 +23,7 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
 
 # Packages (Sway)
 yay -S swaylock-effects --noconfirm 
-sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland bemoji sway fuzzel hyprshot
+sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland bemoji fuzzel xdg-desktop-portal-wlr
 # If you want the vanilla sway
 # sudo pacman -S sway
 
