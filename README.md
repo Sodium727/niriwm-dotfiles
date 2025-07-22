@@ -33,6 +33,7 @@ Make sure to back up your current configurations.
 - `Mod` + `Alt` + `L`: Lock screen (swaylock)
 - `Mod` + `T` or `Mod` + `Enter`: Open terminal (alacritty)
 - `Mod` + `Space`: Open app launcher (fuzzel)
+- `Mod` + `Shift` + `P`: Open power menu (fuzzel)
 
 # Wallpaper
 To change background, edit `.config/sway/config`, at a line which may look like:
