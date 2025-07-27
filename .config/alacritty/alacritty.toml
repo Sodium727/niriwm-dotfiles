@@ -8,7 +8,7 @@
 
 [general]
 import = [
-"themes/isabel.toml",
+"themes/colors-alacritty.toml",
 "fonts.toml",
 ]
 
@@ -17,7 +17,7 @@ live_config_reload = true
 [env]
 TERM = "alacritty"
 WINIT_X11_SCALE_FACTOR = "1.0"
-SHELL = "/sbin/zsh"
+SHELL = "/sbin/nu"
 
 [cursor]
 blink_interval = 0
@@ -35,7 +35,7 @@ save_to_clipboard = true
 decorations = "none"
 dynamic_title = false
 opacity = 0.85
-padding = { x = 10, y = 10 }
+padding = { x = 3, y = 3 }
 dynamic_padding = true
 resize_increments = true
 
