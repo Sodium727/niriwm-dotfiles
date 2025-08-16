@@ -14,6 +14,6 @@ if pgrep wf-recorder >/dev/null; then
     notify-send "Stopped Recording. File saved in $FILE."
 else
     # Start full-screen recording in background
-    wf-recorder -a -f "$FILE" &
+    wf-recorder -r 60 -f "$FILE" &
     notify-send "Recording Screen..."
 fi

@@ -9,9 +9,8 @@
     // "width": 1280, // Waybar width
     "spacing": 8, // Gaps between modules (4px)
     "modules-left": [
-        "custom/launcher",
         // "wlr/taskbar",
-        "sway/workspaces",
+        "pulseaudio",
         "mpris"
     ],
     "modules-center": [
@@ -19,11 +18,7 @@
     ],
     "modules-right": [
         // "custom/vkeyboard",
-        "privacy",
-        "custom/clipboard",
-        "pulseaudio",
         "backlight",
-        "battery",
         "tray",
         "custom/notification"
     ],

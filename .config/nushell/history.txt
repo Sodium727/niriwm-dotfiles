@@ -1,0 +1,2039 @@
+ls
+l
+ls
+cd
+cd Pictures/
+ls
+cd Pictures
+cd Wallpapers/
+ls
+imv 2girls-halloween.jpg
+ls
+exit
+playerctl 
+playerctl l
+playerctl -a
+playerctl -l
+playerctl pause
+playerctl start
+playerctl play
+playerctl next
+nvim .config/niri/config.kdl
+wpctl
+niri validate
+niri --help
+niri completions nu
+nvim .config/niri/config.kdl
+exit
+ls
+cd niriwm-dotfiles/
+ls
+cp -rv ~/.config/niri/ .config/
+git add .
+git commit -m "Add playback controls"
+git push
+ls
+cd ..
+ls
+nvim cpp2exit
+nvim code.cpp
+ls
+nvim .config/nushell/config.nu
+nvim .config/nushell/env.nu
+ls
+sudo pacman -Syu --noconfirm
+brew
+sudo pacman -S brewq
+sudo pacman -S --noconfirm brew
+pacman -Ss brew
+poweroff
+pkill waybar
+nvim .config/niri/config.kdl
+exit
+ls
+nvim .config/niri/config.kdl
+ls
+nvim .config/niri/config.kdl
+exit
+nvim /usr/share/nushell/vendor/autoload/zoxide.nu
+nvim +"Lazy sync"
+exit
+sudo pacman -S --noconfirm -u  -y 
+sudo pacman -Rns --noconfirm dart
+sudo pacman -Rns --noconfirm dart-sass
+zsh
+sudo pacman -S --noconfirm -u  -y 
+ls
+wireshark
+ls
+cd Downloads/l
+cd Downloads/
+ls
+imv w.jpg
+rm w.jpg
+ls
+rm firefox-*
+ls
+rm coffee-machine/ -fr
+http get https://blackarch/strap.sh
+http get https://blackarch.org/strap.sh
+ls
+chmod +x blackarch.sh
+l
+ls
+./blackarch.sh
+nvim .config/niri/config.kdl
+nvim .config/nushell/config.nu
+exit
+ls
+nvim .config/nushell/config.nu
+exit
+sudo ./blackarch.sh
+exit
+wirefilter 
+man wireshark
+exit
+ls
+nvim code.cpp
+g++ code.cpp -o code
+./code
+nvim code.cpp
+g++ code.cpp -o code
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+mv code.cpp fastio.cpp
+nivm code.cpp
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code 
+nvim code.cpp
+diff code.cpp fastio.cpp
+diff code.cpp fastio.cpp --w
+diff code.cpp fastio.cpp 
+g++ code.cpp -o code -O2
+./code 
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim fastio.cpp
+ls
+waybar& disown
+waybar & disown
+waybar backgroudn
+waybar background
+waybar
+man nu
+man nushell
+job
+job spawn waybar
+job spawn waybar;
+job spawn {waybar}
+exit
+job
+nvim code.cppp
+nvim code.cpp
+cat > code.cpp
+write code.cpp
+write to code.cpp
+write
+write --help
+save
+save --help
+save -r code.cpp
+save -r 
+cat out> code.cpp
+ls
+nvim code.cpp
+open .config/alacritty/alacritty.toml
+nvim code.cpp
+open code.cpp
+ls /etc/passwd
+open /etc/passwd
+open /etc/passwd | to cvs
+open /etc/passwd | to csv
+open /etc/passwd | to json
+awk
+awk -F ":" "{print $2}"/etc/passwd 
+awk -F ":" "{print $2}" /etc/passwd 
+exit
+^waybar& disown
+^waybar & ^disown
+^nohup waybar & disown
+open --spawn waybar
+^waybar &> 
+^waybar &> /dev/null $
+^waybar &> /dev/null &
+waybar
+^nohup waybar > /dev/null 2>&1 &
+^nohup waybar > /dev/null out+err> &
+exit
+bash -ce "waybar & disown"
+exit
+free -lwth --si -s 0.75
+fastfetch
+free -lwth --si -s 0.75
+exit
+nvim .config/nvim/init.lua
+nvim index.html
+exit
+ls
+firefox index.html
+nvim style.css
+nvim styles.css
+firefox index.html
+nvim index.html
+nvim styles.css
+nvim index.html
+ls
+rm index.html styles.css
+ls
+exit
+nvim .config/nvim/init.lua
+nvim 
+sudo  pacman -S powershell
+sudo  pacman -Ss powershell
+nvim 
+exit
+ping google.com
+exit
+nvim .config/niri/config.kdl
+exit
+sudo ping google.com
+exit
+nvim code.cpp
+ls
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+ls
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+open code.cpp | wl-copy
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+exit
+ls
+sudo pacman  -Syu --noconfirm
+ls
+rm "&"
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code 
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+exit
+Xwayland 
+exit
+pacman -Qs wf-recorder
+pacman -S wf-recorder
+sudo pacman -S wf-recorder
+pacman -Ss xdg
+exit
+wf-recorder 
+sudo pacman -S --needed pipewire pipewire-pulse xdg-desktop-portal xdg-desktop-portal-gnome<\n>systemctl --user enable --now pipewire pipewire-pulse<\n>systemctl --user enable --now xdg-desktop-portal xdg-desktop-portal-gnome<\n>
+systemctl --user enable --now pipewire pipewire-pulse
+systemctl --user enable --now xdg-desktop-portal xdg-desktop-portal-gnome
+sudo pacmn -S slurp
+sudo pacman -S slurp
+systemctl --user status xdg-desktop-portal xdg-desktop-portal-gnome<\n>
+systemctl --user start xdg-desktop-portal xdg-desktop-portal-gnome<\n>
+journalctl -xe
+sudo pacman -S xdg-desktop-portal-wlr<\n>systemctl --user start xdg-desktop-portal-wlr<\n>
+sudo pacman -S --needed xdg-desktop-portal-wlr<\n>systemctl --user start xdg-desktop-portal-wlr
+systemctl --user status pipewire.socket pipewire-pulse.socket<\n>
+wf-recorder -f ~/Videos/record_$(date +%Y%m%d_%H%M%S).mkv<\n>
+bash -ce "wf-recorder -f ~/Videos/record_$(date +%Y%m%d_%H%M%S).mkv"
+ls -ld ~/Videos<\n>
+mkdir ~/Videos
+ls -ld ~/Videos<\n>
+sudo usermod -aG video dat
+exit
+zsh
+exit
+sudo pacman -Rns obs-studio
+exit
+yt-dlp -x https://www.youtube.com/watch?v=DMRn7iTOw_8&pp=ygUSc2xlZGdlIHF1ZWVuIHRoZW1l
+s
+ls
+exit
+ffmpeg -i 'Decaying Winter： The Last Strandeds - Sledge Queen Encounter Theme [DMRn7iTOw_8].opus' sq.mp3
+exit
+rm 'Decaying Winter： The Last Strandeds - Sledge Queen Encounter Theme [DMRn7iTOw_8].opus'
+mpv sq.mp3
+exit
+ls
+mpv recording.mkv
+rm recording.mkv
+rm nohup.out
+ls
+ls | where type=dir
+ls | where type dir
+ls | where type directory
+ls | where type d
+ls | where type 
+ls | where type ?
+ls | where type file
+ls | where type x
+ls | where type --help
+where --help
+ls | where type==dir
+ls | where type==file
+ls | where type == file
+ls | where type == dir
+ls | where type == dir | where name == "dotfiles"
+ls | where type == dir | where name --help
+where --help
+where name --help
+where name
+where --help
+ls | where type == dir | sort 
+ls | where type == dir | sort-by 
+ls | where type == dir | sort-by name
+ls | where type == dir | sort-by ~name
+exit
+sudo pacmn -S cava --noconfirm
+sudo pacman -S cava --noconfirm
+cava
+man cava
+cava --help
+cava
+cava -c .config/cava/config
+cava -v
+exit
+cava -p .config/cava/config
+cava
+nvim .config/cava/config
+exit
+cava -p .config/cava/config
+cava --help
+nvim .config/cava/config
+exit
+cava -p .config/cava/config
+exit
+pkill swayidle
+exit
+awk
+ped
+pes
+sed
+man sed
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+ls
+./code
+exit
+nvim calculator.cpp
+ls
+nvim code.cpp
+nvim calculator.c
+gcc calculator.c -o calculator
+./calculator
+nvim calculator.c
+gcc calculator.c -o calculator
+./calculator
+nvim calculator.c
+gcc calculator.c -o calculator
+./calculator
+gcc calculator.c -o calculator
+nvim calculator.c
+ls
+gcc calculator.c -o calculator
+./calculator
+exit
+nvim calculator.c
+gcc calculator.c -o calculator
+./calculator
+gcc calculator.c -o calculator
+nvim calculator.c
+gcc calculator.c -o calculator
+nvim calculator.c
+gcc calculator.c -o calculator
+./calculator
+nvim calculator.c
+nvim .config/nvim/init.lua
+nvim /usr/share/nvim/runtime/lua/vim/diagnostic.lua +2146
+nvim /usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
+nvim /usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua +240
+nvim /usr/share/nvim/runtime/lua/vim/lsp/client.lua
+nvim calculator.c
+unfreeze
+job unfreeze 
+nvim calculator.cp
+nvim calculator.cpp
+exit
+nvim calculator.c
+vim calculator.c
+ls
+gcc calculator.c -o calculator
+./calculator
+sudo pacman -Rns nautilus
+write
+write --help
+bash 
+fas
+fastfetch
+vim calculator.c
+fastfetch
+exit
+fastfetch
+nvim
+ls
+bas
+exit
+fastfetch
+exit
+nvim calculator.c
+exit
+ls
+cd .config/nvim/init.lua
+cd .config/nvim/
+ls
+cd ..
+rm nvim/ -fr
+mkdir nvim
+cd nvim/
+nvim init.lua
+pacman -Ss nvim
+sudo pacman -S python-pynvim
+sudo pacman -S python-pynvim fd --noconfirm
+sudo pacman -S fd --noconfirm
+nvim init.lua
+sudo pacman -Ss treesitter
+sudo pacman -Ss tree-sitter
+tree-sitter
+^tree-sitter
+sudo pacman -S tree-sitter-c
+exit
+nvim init.lua
+fastfetch
+exit
+pkill swayidle
+exit
+nvim init.lua
+ls
+nvim ~/calculator.c
+nvim .config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
+nvim ~/calculator.c
+fastfetch
+exit
+nvim
+ls
+nvim ~/Documents/codes/lqdoj/
+sudo pacman -S --needed --noconfirm git curl unzip tar gzip
+exit
+nvim init.lua
+nvim
+nvim init.lua
+nvim 
+nvim init.lua
+nvim ~/calculator.c
+nvim 
+nvim .config/nvim/init.lua
+nvim ~/calculator.c
+nvim calculator.c
+nvim init.lua
+nvim code.cpp
+nvim 
+nvim init.lua
+nvim code.js
+npm install -g typescript typescript-language-server<\n>
+sudo npm install -g typescript typescript-language-server<\n>
+nvim code.js
+echo PATH
+echo $PATH
+echo $env.PATH
+nvim code.js
+nvim code.cpp
+export PATH="/home/dat/node_modules/.bin/:$env.PATH"
+export
+nvim code.js
+nvim node_modules/.bin/
+nvim code.js
+bash
+exit
+nvim index.html
+ls
+rm .config/nvim/ -fr
+exit
+git clone https://github.com/cpow/neovim-for-newbs/
+ls
+cd neovim-for-newbs/
+ls
+mkdir ~/.config/nvim
+mv * -v ~/.config/nvim/
+nvim .npm/_logs/2025-07-25T13_59_38_434Z-debug-0.log
+nvim .config/nvim/init.lua
+nvim .npm/_logs/2025-07-25T13_59_38_434Z-debug-0.log
+sudo npm -i swagger-ui-watcher
+sudo npm install swagger-ui-watcher
+sudo npm install superagent
+npm fund
+nvim
+cd ..
+rm neovim-for-newbs/ -fr
+nvim .config/nvim/init.lua
+nvim .config/nvim/lua/plugins.lua
+nvim .config/nvim/lua/plug
+nvim .config/nvim/lua/plugins/swagger-preview.lua
+rm .config/nvim/lua/plugins/swagger-preview.lua
+nvim
+nvim .config/nvim/lua/plugins/lsp-config.lua
+exit
+nvim .config/nvim/lua/plugins/nvim-tmux-navigation.lua
+rm .config/nvim/lua/plugins/nvim-tmux-navigation.lua
+nvim 
+nvim .config/nvim/lua/plugins/lsp-config.lua
+nvim
+nvim .config/nvim/lua/plugins/lsp-config.lua
+nvim .config/nvim/lua
+nvim .config/nvim/l
+nvim .config/nvim/lua/plugins/
+nvim .config/nvim/lua/vim-options.lua
+nvim .config/nvim/lua/plugins/alpha.lua
+rm .config/nvim/lua/plugins/alpha.lua
+rm .config/nvim/lua/plugins/none-ls.lua
+git clone https://github.com/cpow/neovim-for-newbs/ ~
+git clone https://github.com/cpow/neovim-for-newbs/ ~/nvim
+cp ~/nvim/lua/plugins/none-ls.lua ~/.config/nvim/lua/plugins/
+cd .config/nvim/lua/plugins/
+nvim none-ls.lua
+nvim neo-tree.lua
+nvim telescope.lua
+nvim vim-test.lua
+rm vim-test.lua
+nvim
+nvim treesitter.lua
+nvim completions.lua
+nvim lsp-config.lua
+nvim
+ls
+nvim code.cpp
+exit
+nvim .config/nvim/lua/plugins/lsp-config.lua
+nvim 
+nvim .config/nvim/lua/plugins/lsp-config.lua
+nvim
+exit
+nvim code.cpp
+ls
+nvim autoclose.lua
+nvim code.cpp
+nvim .config/nvim/lua/plugins/completions.lua
+nvim code.cpp
+nvim .config/nvim/lua/plugins/completions.lua
+exit
+exi
+exit
+sudo pacman -Syu --noconfirm && poweroff
+sudo pacman -Syu --noconfirm and poweroff
+sudo pacman -Syu --noconfirm; poweroff
+nvim cvm.cpp
+nvim .config/nvim/lua/plugins/
+nvim
+cd .config/nvim/lua/plugins/
+nvim
+nvim 
+exit
+nvim cvm.cpp
+exit
+nvim code.cpp
+exit
+config nu
+nvim .config/nushell/config.nu
+exit
+nvim .config/nushell/config.nu
+exit
+config nu
+help config nu
+config nu --doc | nu-highlight 
+nvim cvm.cpp
+nvim .config/nvim/lua/plugins/lsp-config.lua
+nvim cvm.cpp
+ls
+nvim index.html
+nvim styles.css
+ls
+nvim code.cpp
+exit
+nvim calculator.py
+nvim .config/nvim/lua/vim-options.lua
+nvim calculator.py
+ls
+nvim calculator.py
+python calculator.py
+mv calculator.py trung-calculator.py
+nvim trung-calculator.py
+python calculator.py
+python trung-calculator.py
+exit
+sudo pacman -Syu --noconfirm; poweroff
+sudo wifi-menu
+ping google.com
+ls
+rm trung-calculator.py
+cd niriwm-dotfiles/
+ls
+cp -rv ~/.config/niri/ .config/
+cp -rv ~/.config/alacritty/ .config/
+cp -rv ~/.config/fuzzel/ .config/
+cp -rv ~/.config/nvim/ .config/
+rm .config/nvim/ -fr
+cp -rv ~/.config/nvim/ .config/
+ls .config/
+cp -rv ~/.config/waybar/ .config/
+ls
+git add .
+git commit -m "Updates"
+open ~/Documents/__protected__/keys/github-token.txt
+open ~/Documents/__protected__/keys/github-token.txt | wl-copy
+git push
+exit
+nvim .config/waybar/config.jsonc
+pkill waybar
+bash -ce "waybar & disown"
+nvim .config/waybar/config.jsonc
+pkill waybar
+bash -ce "waybar & disown"
+nvim .config/waybar/config.jsonc
+pkill waybar
+bash -ce "waybar & disown"
+exit
+nvim .config/waybar/config.jsonc
+p
+pkill waybar
+bash -ce "waybar & disown"
+write
+nvim .config/waybar/config.jsonc
+exit
+wls
+ls
+nvim code.cpp
+ls
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+cat code-psuedo.md
+cat > code-psuedo.md
+cat
+cat --help
+save
+save --help
+save code-psuedo.md
+wl-paste | save code-psuedo.md
+wl-paste | save code-psuedo.md -f
+nvim code-psuedo.md
+lines
+lines | save --append code-psuedo.md
+hey
+> lines | save --append code-psuedo.md
+lines --helpp
+lines --help
+lines
+lines hi
+lines "hi"
+hi | lines
+echo hi | lines
+nvim code-psuedo.md
+mv code-psuedo.md code-psuedo.pas
+lines
+man lines
+lines --help
+lines -s
+cat | lines
+cat | save --append new-file.txt
+head new-file.txt
+open new-file.txt
+rm new-file.txt -fr
+ls
+yt-dlp -x https://music.youtube.com/watch?v=qfgn-OkKJDQ
+ls
+ffmpeg -i 'Scattered Dust [qfgn-OkKJDQ].opus' menu.mp3
+nvim code-psuedo.pas
+rm code.cpp
+ls
+rm 'Scattered Dust [qfgn-OkKJDQ].opus' menu.mp3 
+mv code-psuedo.pas DOANPHU-psuedo.pas
+ls
+exit
+cat | save --append DOANPHU-psuedo.pas
+tail DOANPHU-psuedo.pas
+exit
+nvim DOANPHU-psuedo.pas 
+exit
+nvim DOANPHU-psuedo.pas DOANPHU.c
+gdb
+gcc DOANPHU.c
+ls
+./a.out
+nvim .gdbinit
+exit
+open DOANPHU.c | wl-copy
+gdb a.out
+nvim DOANPHU-psuedo.pas
+ls
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+open DOANPHU.c | wl-copy
+nvim DOANPHU.c
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+gcc DOANPHU.c -o DOANPHU -O2
+nvim DOANPHU.c
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+cat | save --append newDOANPHU.c
+gcc newDOANPHU.c -o newDOANPHU -O2
+./newDOANPHU
+cat | save  newDOANPHU.c
+cat | save  newDOANPHU.c -f
+gcc newDOANPHU.c -o newDOANPHU -O2
+./newDOANPHU
+sudo pacman -S tigress
+strip
+strip DOANPHU
+upx
+nvim newDOANPHU.c
+dpkg
+yay -Ss tigress
+exit
+sudo pacman -S dpkg
+cd Downloads/
+ls
+sudo dpkg --force-architecture -i tigress_4.0.11-1_all.deb.zip
+7z x tigress_4.0.11-1_all.deb.zip
+ls
+sudo dpkg --force-architecture -i tigress_4.0.11-1_all.deb
+sudo pacman -S perl --noconfirm
+sudo dpkg --force-architecture -i tigress_4.0.11-1_all.deb
+perl -v
+nvim newDOANPHU-obf.c
+rm newDOANPHU-obf.c
+ls
+rm tigress_4.0.11-1_all.deb
+rm en_windows_xp_professional_with_service_pack_3_x86_cd_vl_x14-73974.iso
+ls
+rm vim.reaper/ -fr
+sudo rm vim.reaper/ -fr
+ls
+rm Win10_22H2_English_x32v1.iso
+rm c7efec345738de668729.jpg
+head config
+rm config
+ls
+firefox 883920013-eBook-Chinh-Phục-Hoa-Vo-Cơ-Lớp-12-Thầy-Phạm-Văn-Trọng.pdf
+rm 883920013-eBook-Chinh-Phục-Hoa-Vo-Cơ-Lớp-12-Thầy-Phạm-Văn-Trọng.pdf
+ls
+7z x tigress-3.3.3-bin.zip
+rm *.zip
+cd tigress/
+ls
+nvim INSTALL
+ls
+l
+ls -ha
+ls -a
+cd 3.3.3/
+ls
+./tigress \<\n>  --Seed=1234 \<\n>  --Transform=Flatten \<\n>  --Transform=AddOpaque \<\n>  --Functions=dec \<\n>  --Out=newDOANPHU-obf.c \<\n>  ~/newDOANPHU.c<\n>
+./tigress --Seed=1234 --Transform=Flatten --Transform=AddOpaque --Functions=dec --Out=newDOANPHU-obf.c ~/newDOANPHU.c<\n>
+export TIGRESS_HOME=/home/dat/Downloads/tigress/3.3.3
+bash
+exit
+nvim .config/niri/config.kdl
+exit
+niri validate
+nvim .config/niri/config.kdl
+exit
+pkill firefox
+exit
+fastfetch
+exit
+wait pacman && reboot
+wait pacman; reboot
+pkill firefox
+sudo pacman -Syu --noconfirm
+reboot
+nvim newDOANPHU.c
+exit
+vim newDOANPHU.c
+ls
+nvim DOANPHU.c
+ls
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+nvim DOANPHU.c
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+nvim DOANPHU.c
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc DOANPHU.c -o DOANPHU -O2
+./DOANPHU
+ls
+rm *DOANPHU*
+l
+ls
+ls nvim/ 
+rm nvim/ -fr
+nvim cvm.cpp
+ls
+exit
+mpv  sq.mp3
+ls
+job unfreeze 
+mpv  sq.mp3 &
+l
+mpv  sq.mp3 | backgroudn
+ls
+rm a.out
+nvim calculator.c
+rm calculator*
+ls
+nvim code.c
+rm code*
+cat | save -a -f cvm.cpp
+nvim cvm.cpp
+cat | save -a -f cvm.pas
+nvim cvm.pas
+rm cvm*
+ls
+swaybg -i Pictures/Wallpapers/purple-cameltoe.png
+exit
+open DOANPHU.c | wl-copy
+open DOANP.c | wl-copy 
+nvim DOANP.cpp
+nvim DOANP.c
+nvim DOANP.cpp
+g++ DOANP.cpp -o DOANP 
+open DOANP.cpp | wl-copy 
+nvim DOANP.c
+nvim DOANP.cpp
+g++ DOANP.cpp -o DOANP -O2
+./DOANP
+sl
+ls
+exit
+cat | save -a -f class.cpp
+g++ class.cpp -o class -O2
+./class
+cat | save -f class.cpp
+nvim class.cpp
+g++ class.cpp -o class -O2
+./class
+nvim class.cpp
+exit
+fastfetch
+ls
+cd Documents/
+ls
+cd ielts/
+ls
+mkdir stolen-course
+cd stolen-course/
+mv `~/Downloads/U1 Adjective & Abverb (1) Copy.pptx` .
+ls
+pkill swayidle
+exit
+fastfetch
+exit
+sudo pacman -Syu --noconfirm; poweroff
+exit
+nvim .config/niri/config.kdl +36
+exit
+vmstat 
+vmstat --help
+vmstat -t -w -S
+vmstat -t -w 
+sudo pacman -Syu --noconfirm
+flatpak update
+flatpak uninstall 
+flatpak uninstall --unused
+flatpak list
+flatpak uninstall Zen
+exit
+ls
+rm DOANP*
+ls
+rm class*
+ls
+cd Downloads/
+ls
+nvim code.cpp
+7z x Summer_Memories_Deluxe_Edition_v2.3_Unrated_GOG.7z
+ls
+rm Summer_Memories_Deluxe_Edition_v2.3_Unrated_GOG.7z
+rm tigress/ -fr
+ls
+ls -la
+ls -
+ls -aw
+ls -a
+mv `Summer Memories/` .games/
+ls .games/
+cd `.games/Summer Memories/`
+ls
+wine
+exit
+nvim +'Lazy sync'
+exit
+ls
+cd Downloads/.games/
+ls
+cd `Summer Memories/`
+ls
+zsh
+wine Game.exe --rendering-driver opengl3
+wine Game.exe 
+yt-dlp -x https://www.youtube.com/watch?v=66JiKsXvm1A
+ls
+rm 'Chuông Báo Thức Quân Đội. [66JiKsXvm1A].opus'
+exit
+yt-dlp -x https://www.youtube.com/watch?v=TRVuAHj2Csc 
+ffmpeg  -i 'nhạc chuông báo thức độc đáo trong quân đội [TRVuAHj2Csc].opus' army-alarm.wav
+ffmpeg  -i 'nhạc chuông báo thức độc đáo trong quân đội [TRVuAHj2Csc].opus' army-alarm.mp3
+ls
+exit
+ls
+pkill firefox
+exit
+sudo pacman -Syu --noconfirm
+ls
+nvim
+swaybg -i .config/sway/bg/lockscreen.jpg 
+python code.py
+clear; python code.py
+nvim code.py
+nano code
+sudo pacman -S --noconfirm nano
+p
+python code.py
+nvim .config/niri/config.kdl
+python code.py
+nano code.py
+python code.py
+nvim code.py
+rm code.py
+nvim code.py
+ls
+rm code.py
+mpv 'nhạc chuông báo thức độc đáo trong quân đội [TRVuAHj2Csc].opus'
+nvim code.c
+gcc code.c -o code
+./code
+open code.c | wl-copy 
+flatpak update; poweroff
+sudo pacmn -Rns kitty
+nvim .config/niri/config.kdl
+sudo pacman -Rns kitty
+cat | save -f calendar.sh
+chmod +x calendar.sh
+./calendar.sh
+nvim calendar.sh
+exit
+ls
+yay -Ss sober
+systemd-resolve --flush-caches
+sudo sysctl net.ipv6.conf.all.disable_ipv6=1
+exit
+nvim .config/niri/config.kdl
+pkill swayidle
+exit
+ls
+nvim +qall!
+nvim code.c
+exit
+sudo sysctl net.ipv6.conf.all.disable_ipv6=0)
+sudo sysctl net.ipv6.conf.all.disable_ipv6=0
+exit
+pavucontrol
+nvim +qall!
+nvim code.c
+gcc code.c -o code
+./code
+open code.c | wl-copy 
+gcc code.c -o code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+./code
+gcc code.c -o code
+./code
+open code.c | wl-copy 
+./code
+nvim code.c
+gcc code.c -o code
+./code
+open code.c | wl-copy 
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+open code.c | wl-copy 
+nvim code.c
+open code.c | wl-copy 
+gcc code.c -o code
+.code
+./code
+open code.c | wl-copy 
+nvim code/c
+nvim code.c
+ls
+rm army-alarm.*
+ls
+rm 'nhạc chuông báo thức độc đáo trong quân đội [TRVuAHj2Csc].opus'
+ls
+swaybg -i Pictures/Wallpapers/forest-elf.jpg
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+nvim dcode.c
+nvim .config/niri/config.kdl
+ls
+exi
+exit
+ls
+ls Downloads/.games/
+exit
+ls
+tmux
+pkill swayidle
+exit
+zsh
+sudo /usr/lib/booster/regenerate_images
+tgpt -m
+exit
+pkill swayidle
+exit
+nvim .config/niri/config.kdl
+brightnessctl 
+brightnessctl --help
+brightnessctl get
+brightnessctl max
+brightnessctl set
+brightnessctl set 50%
+brightnessctl set 10%+
+nvim .config/niri/config.kdl
+exit
+pacman -Ss i3status-rust
+sudo pacman -S i3status-rust --noconfirm
+sudo pacman -S --noconfirm wob
+wob
+sudo pacman -S --noconfirm rootbar
+sudo pacman -Rns i3
+i3status-rs 
+mkdir -p ~/.config/i3status-rust<\n>cat > ~/.config/i3status-rust/config.toml << 'EOF'<\n>general = { interval = 5 }<\n>[[block]]<\n>block = "cpu"<\n>format = "CPU: {usage}%"<\n>[[block]]<\n>block = "memory"<\n>format = "RAM: {used}/{total} MiB"<\n>[[block]]<\n>block = "battery"<\n>format = "BAT: {percent}% {status}"<\n>EOF<\n>
+mkdir -p ~/.config/i3status-rust
+mkdir ~/.config/i3status-rust
+nvim .config/i3status-rust/config.toml
+i3status-rust | rootbar --config ~/.config/rootbar/config.toml &<\n>
+i3status-rs | rootbar --config ~/.config/rootbar/config.toml &<\n>
+rootbat
+rootbar
+i3status-rs 
+wob
+mkfifo /tmp/wobpipe
+tail -f /tmp/wobpipe | wob
+echo 43 | wob
+echo 43 > /tmp/wobpipe
+wob
+exit
+sudo pacman -S yambar
+yay -S yambar --noconfim
+yay -S yambar --noconfirm
+yay -S yambar --noconfirm --mflags "--nopgpcheck"
+yay -S yambar --noconfirm --mflags "--nogpgcheck"
+zsh
+yay -S yambar --noconfirm --mflags "--skippgpcheck"
+yay -S --noconfirm --mflags "--skippgpcheck" yambar
+yay -S  --mflags "--skippgpcheck" yambar
+nvim .config/i3status-rust/config.toml
+i3status-rs ~/.config/i3status-rust/config.toml<\n>
+nvim .config/i3status-rust/config.toml
+i3status-rs ~/.config/i3status-rust/config.toml<\n>
+nvim .config/i3status-rust/config.toml
+mkdir ~/.config/yambar
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+yambar
+pkill waybar
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+pacman -Ss awesome
+pacman -Ss awesome font
+sudo pacman -S awesome-terminal-fonts
+yambar
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+yambar 
+nvim .config/yambar/config.yml
+yambar
+nvim .config/yambar/config.yml
+yambar
+date
+date from-human
+date humanize
+time
+date now
+date now | date humanize
+date humanize
+date 
+date now
+pacman -Ss pantheon
+yay -S pantheon --noconfirm
+yay -S pantheon --needed
+sudo pacman -S --noconfirm --needed pantheon
+sh -ce "waybar &"
+exit
+pacman -Ss effects
+sudo pacman -S easyeffects 
+exit
+ls
+rm calendar.sh
+exit
+ls
+nvim code.c
+cat | save -f code.c
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.kot
+nvim code.kotlin
+nvim code.kl
+nvim code.kotl
+nvim code.rs
+http get https://learnxinyminutes.com/files/learnrust.rs
+ls
+http get https://learnxinyminutes.com/files/learnrust.rs | save -f learnrust.rs
+nvim learnrust.rs
+rust
+pacman -Ss rust
+sudo pacman -S rust-analyzer
+http get https://learnxinyminutes.com/files/learnrust.rs | wl-copy
+curl
+sudo pacman -S zed
+zed
+zeditor
+exit
+zeditor learnrust.rs
+zeditor ~/Documents/__protected__/keys/deepseek_zed_api.txt
+cat | save -f ~/Documents/__protected__/keys/deepseek_zed_api.txt
+ls
+zeditor code.c
+sudo pacman -Rns zed
+sudo pacman -R zed
+sudo pacman -Syu --noconfirm; poweroff
+sudo wifi-menu
+ls
+cd Documents/ielts/stolen-course/
+ls
+mkdir 2525
+mv `U1 Adjective & Abverb (1) Copy.pptx` 2525/
+mkdir 1923
+cd 1923/
+cd ..
+mkdir goldhour
+cd goldhour/
+cat | save w1.txt
+exit
+sudo pacman -Syu --noconfirm 
+nvim .config/niri/config.kdl
+ls
+cd niriwm-dotfiles/
+cp -rv ~/.config/niri/ .config/
+cp -rv ~/.config/sway .config/
+rm .config/sway -fr
+ls
+ls .config/
+nvim .config/sway/config
+ls
+cd Documents/ielts/stolen-course/2525/
+ls
+mv ~/Downloads/HANDOUT.docx .
+ls
+ls ~/Downloads/
+nvim ~/Downloads/sfwbar.config.txt
+pacman -Ss sfwbar
+yay -Ss sfwbar
+yay -S sfwbar-git --noconfirm
+cd ~/.config/
+ls
+mkdir sfwbar
+mv ~/Downloads/sfwbar.config.txt sfwbar/sfwbar.config
+sfwbar 
+mv ~/Downloads/*.config sfwbar/
+ls
+cd sfwbar/
+ls
+pkill waybar
+ls
+nvim t2.config
+mv sfwbar.config custom.config
+sfwbar
+mv t2.config sfwbar.config
+sfwbar 
+mv sfwbar.config tint2.config
+ls
+mv wbar.config sfwbar.config
+sfwbar 
+mv sfwbar.config wbar.config
+mv w10.config sfwbar.config
+sfwbar 
+ls
+mv sfwbar.config w10.config
+sfwbar
+sfwbar 
+cd -
+ls
+cd .config/sfwbar/
+ls
+ln -sf sfwbar.config custom.config
+ls
+ln -sf custom.config sfwbar.config
+ls
+nvim custom.config
+ls
+exit
+nvim sfwbar.config
+rm sfwbar.config
+ls
+nvim custom.config
+rm custom.config
+ls
+nvim w10.config
+ls
+mv w10.config sfwbar.config
+sfwbar 
+exit
+sfwbar 
+nvim .config/sfwbar/sfwbar.config
+sfwbar 
+sh -ce "waybar &"
+exit
+sudo pacman -Syu --noconfirm; poweroff
+ls
+cd Downloads/
+ls
+./osu.AppImage
+exit
+sudo pacman -Syu --noconfirm && flatpak update
+sudo pacman -Syu --noconfirm and flatpak update
+"sudo pacman -Syu --noconfirm" and flatpak update
+"sudo pacman -Syu --noconfirm" and "flatpak update"
+(sudo pacman -Syu --noconfirm) and (flatpak update)
+exit
+pkill pkill
+pkill swayidle
+exit
+fastfetch
+nvim .config/fastfetch/config.jsonc
+ls
+cd .config/fastfetch/
+ls
+open arch.txt
+ls pngs/
+ls anyrun/
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+nvim config.jsonc
+fastfetch
+ls
+ls anyrun/
+ls
+cd anyrun/
+;s
+nvim config.ron
+nvim style.css
+cd //
+ls
+nvim code.c
+pkill swayidle
+exit
+nvim code.c
+exit
+nvim hashmap.pas
+ls
+mpv sq.mp3
+ls
+nvim code.c
+rm code.c
+nvim code.rs
+nvim 
+nvim code.rs
+rust
+rustup
+rustc
+rustc code.rs
+nvim learnrust.rs
+ls
+exit
+nvim code.rs
+ls
+nvim code.rs
+rust-analyzer 
+nvim code.rs
+rustc code.rs
+nvim code.rs
+./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+rustc code.rs; ./code
+nvim code.rs
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo pacman -Rns rust
+sudo pacman -Rns rust rust-src rustc
+sudo pacman -Rns rust rust-src 
+sudo pacman -Rns rust rust-src rust-analyzer
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+http get https://sh.rustup.rs | sh
+source 
+source $"($nu.home-path)/.cargo/env.nu"
+rustc
+ls
+rustup
+rustup update
+nvim code.rs
+rustc code.rs
+clear; rustc code.rs
+nvim .config/nvim/lua/vim-options.lua
+exit
+nvim code.rs
+rustc code.rs
+./code
+rustc code.rs
+./code
+rustc code.rs
+clear; rustc code.rs
+./code
+clear; rustc code.rs
+./code
+wdwals
+nvim code.rs
+nvim +qall!
+exit
+yt-dlp https://www.facebook.com/stories/107305749103868/UzpfSVNDOjE0NDQwNDA5MzM0MTMxMjA=/?bucket_count=9&source=story_tray
+yt-dlp https://www.facebook.com/stories/107305749103868/UzpfSVNDOjE0NDQwNDA5MzM0MTMxMjA=/?bucket_count=9
+yt-dlp https://www.facebook.com/stories/107305749103868/UzpfSVNDOjE0NDQwNDA5MzM0MTMxMjA
+ls
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+nvim code.rs
+rustc code.rs
+./code
+exit
+sudo pacman -S android-tools
+adb
+adb connect
+adb devices
+adb connect
+adb devices
+adb connect
+adb 
+adb attach
+adb root
+adb kill-server
+adb root
+adb kill-server
+adb devices
+adb connect
+adb
+adb devices
+adb install-multiple Downloads/NetHunterStore.apk
+flatpak install Downloads/io.atom.electron.HammerAI_stable_x86_64.flatpak
+exit
+ls
+cd Downloads/
+ls
+swaybg -i wallhaven-p8djy3_1920x1080.png
+mv wallhaven-p8djy3_1920x1080.png ~/.config/sway/bg/wallpaper.jpg
+mv wallhaven-p8djy3_1920x1080.png ~/.config/niri/bg/wallpaper.png
+cp wallhaven-p8djy3_1920x1080.png ~/.config/niri/bg/wallpaper.png
+ls
+nvim ~/.config/niri/config.kdl
+ls
+sway
+ls
+rm wallhaven-p8djy3_1920x1080.png 
+rm io.atom.electron.HammerAI_stable_x86_64.flatpak
+rm blackarch.sh
+ls
+alias
+exit
+mkfifo --help
+exit
+flatpak run 
+flatpak run --help
+flatpak list
+flatpak run io.atom.electron.HammerAI
+Xwayland 
+flatpak run io.atom.electron.HammerAI | Xwayland 
+sudo pacman -S i3
+i3
+exit
+flatpak uninstall io.atom.electron.HammerAI 
+nvim 
+sudo pacman -Rns i3
+exit
+ls Videos/ --sort=date
+ls Videos/ --sort=time
+ls Videos/ 
+mpv Videos/record_20250806_213937.mp4
+rm Videos/*
+exit
+sudo pacman -S cmatrix 
+ls
+firefox bookmarks.html
+bemoji --help
+exit
+nvim .config/niri/config.kdl
+exit
+ping 8.8.8.8
+ping 192.168.1.1
+ping google.com192.168.1.254
+ping 192.168.1.254
+exit
+ping 104.26.10.229,
+ping 104.26.10.229
+ping tryhackme.com
+exit
+shh
+ssh
+ssh 24000
+nc
+netcat
+nc semtex.labs.overthewire.org 24001 > output
+nc semtex.labs.overthewire.org 24001 > output.raw
+(nc semtex.labs.overthewire.org 24001) > output.raw
+nc semtex.labs.overthewire.org 24001 | save -f output
+sh
+base64 -d S1JZUFRPTklTR1JFQVQ=
+base64 -d 
+tgpt
+tgpt "how do I use ssh in linux"
+ssh krypton1@krypton.labs.overthewire.org
+ssh krypton1@krypton.labs.overthewire.org:2231
+ssh krypton1@krypton.labs.overthewire.org/2231
+ssh krypton1@krypton.labs.overthewire.org
+tgpt "how do I use ssh in linux, and connect to a port? short answer."
+ssh krypton1@krypton.labs.overthewire.org -p 2231
+ssh krypton2@krypton.labs.overthewire.org -p 2231
+ls
+nvim code.rs
+nvim ~/.config/nvim/init.lua
+sudo pacman -Syu --noconfirm
+nvim ~/.config/nvim/lua/vim-options.lua
+s
+ls
+rm bookmarks.html
+rm output*
+ls
+open package-lock.json
+open package.json
+nvim package.json
+rm package*
+ls
+ls Sync/
+rm Sync/ -fr
+ls
+ls go/
+ls
+open fastio.cpp
+nvim fastio.cpp
+exit
+exit
+nvim .config/alacritty/alacritty.toml
+nvim .config/alacritty/fonts.toml
+ls
+flatpak update
+exit
+sudo pacman -S debtap
+yay -S debtap
+debtap -h
+debtap Downloads/steam_latest.deb
+sudo debtap -u
+debtap Downloads/steam_latest.deb
+ls
+sudo debtap Downloads/steam_latest.deb 
+ls
+cd Downloads/
+ls
+sudo pacman -U steam-launcher-1-1-x86_64.pkg.tar.zst
+sudo pacman -S nss
+sudo pacman -S python-apt
+sudo pacman -Ss python-apt
+sudo pacman -Ss pytohn
+sudo pacman -Ss python-
+sudo pacman -Ss apt
+l
+ls
+rm steam*
+ls
+mv `ĐỀ TDMT2026_02_KSCL TOÁN THPT2026_LẦN 02.pdf` math.pdf
+sudo pacman -S steam --noconfirm
+sudo pacman -S --noconfirm steam-native-runtime
+sudo pacman -S --noconfirm --needed vulkan-icd-loader vulkan-intel xf86-video-intel mesa  xdg-desktop-portal lib32-systemd  ttf-liberation   lib32-pipewire 
+exit
+sudo pacman -S --noconfirm python-virtualenv
+# Choose a working directory<\n>mkdir -p ~/llm && cd ~/llm<\n><\n># Clone llama.cpp<\n>git clone https://github.com/ggerganov/llama.cpp.git<\n>cd llama.cpp<\n><\n># Build the project<\n>make<\n>
+# Choose a working directory<\n>mkdir -p ~/llm; cd ~/llm<\n><\n># Clone llama.cpp<\n>git clone https://github.com/ggerganov/llama.cpp.git<\n>cd llama.cpp<\n><\n># Build the project<\n>make<\n>
+pkill swayidle
+exit
+git lfs install
+git clone https://huggingface.co/hugging-quants/Meta-Llama-3.1-8B-Instruct-GPTQ-INT4
+ls
+cd Meta-Llama-3.1-8B-Instruct-GPTQ-INT4/
+ls
+find .gguf
+find *.gguf
+rg .gguf
+pip install -U "huggingface_hub[cli]"
+pip install -U "huggingface_hub[cli]" --break-system-packages
+nvim ~/.bashrc
+export PATH="/home/dat/.local/bin:$PATH"
+sh
+ls
+rm qwen.cpp/
+rm qwen.cpp/ -fr
+rm Meta-Llama-3.1-8B-Instruct-GPTQ-INT4/ -fr
+cd llm/llama.cpp/
+ls
+nvim convert_hf_to_gguf.py
+ls
+bash
+exit
+make
+ls
+ls ggml/
+cd ..
+ls
+cd llama.cpp/
+find main
+ls -lh main<\n># -rwxr-xr-x 1 you you 2.3M Aug  7 17:42 main<\n>
+ls
+ls models/
+ls
+ls scripts/
+ls
+ls examples/
+nvim examples/simple/simple.cpp
+lsw
+ls
+ls CMakeFiles/
+ls
+nvim README.md
+exit
+llama-cli
+cd llm/llama.cpp/
+ls
+lsblk
+exit
+nvim README.md
+ls
+find llama.cli
+find "llama-cli"
+find
+find --help
+ls | find llama
+cmake
+cmake cmake_install.cmake
+cmake CMakeLists.txt
+ls
+main
+ls
+math min 12 13
+math min 
+echo "13 12" | math min 
+21 | math min 
+cat "31" | math min 
+cat 31 | math min 
+echo 31 | math min 
+ls
+ls vendor/
+ls tools/
+ls bin/
+ls
+cd bin/
+ls | find llama
+ls | find llama-cli
+ls
+llama-cli
+chmod +x *
+ls
+llama-cli
+./llama-cli -m ~/Downloads/Meta-Llama-3.1-8B-Instruct-Q2_K.gguf
+ls
+nvim ~/.config/nushell/env.nu
+export
+export --help
+exit
+ls
+sh
+git clone https://huggingface.co/MergeFuel/BigPlap-8x20B
+git clone https://huggingface.co/nsfwthrowitaway69/Venus-120b-v1.2
+ls
+mv BigPlap-8x20B/ Venus-120b-v1.2/ llm/
+cd llm/BigPlap-8x20B/
+ls
+llama-cli --file-type=safetensors -m .
+ls
+python ../llama.cpp/convert_hf_to_gguf.py --model-dir . --out-file bigPlap.gguf
+sudo pacman -S python-safetensors python-numpy
+pip install -U --break-system-packages numpy transformers 
+s
+ls
+python ../llama.cpp/convert_hf_to_gguf.py --model-dir . --out-file bigPlap.gguf
+cd Downloads/
+ls
+rm `Meta-Llama-3.1-8B-Instruct-IQ4_XS(1).gguf`
+ls
+mv Meta-Llama-3.1-8B-Instruct-* ~/llm/
+cd ~/llm/
+ls
+mkdir Meta-Llama-3.1-8B
+mv Meta-Llama-3.1-8B-Instruct-IQ4_XS.gguf Meta-Llama-3.1-8B-Instruct-Q2_K.gguf Meta-Llama-3.1-8B/
+ls
+cd Meta-Llama-3.1-8B/
+ls
+fastfetch
+llama-cli -m Meta-Llama-3.1-8B-Instruct-IQ4_XS.gguf
+fastfetch
+llama-cli -m Meta-Llama-3.1-8B-Instruct-Q2_K.gguf
+exit
+pip install -U --break-system-packages torch accelerate
+ls
+python ../llama.cpp/convert_hf_to_gguf.py --model-dir . --out-file bigPlap.gguf
+python ../llama.cpp/convert_hf_to_gguf.py --outfile bigPlap.gguf --outtype q8_0 --no-lazy .
+python ../llama.cpp/convert_hf_to_gguf.py --outfile bigPlap.gguf --outtype q8_0  .
+ls
+vim README.md
+nvim config.json
+open config.json
+ls
+cd llm/BigPlap-8x20B/
+ls
+ls llm/BigPlap-8x20B/
+nvim llm.py
+python llm.py
+Hmm
+ls
+nvim llm.py
+rm llm.py
+cd ..
+rm BigPlap-8x20B/ -fr
+ls
+cd Venus-120b-v1.2/
+ls
+from transformers import pipeline
+python
+lsw
+ls
+python
+python3
+ls
+exit
+nvim code.cpp
+exit
+pgrep cliphist
+pgrep wl-paste
+exit
+pkill wl-paste
+exit
+nvim code.cpp
+nvim code_old.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code_old.cpp
+nvim code.cpp
+g++ code.cpp -o code -O2
+sudo pacman -S cliphist
+sudo pacman -S wl-clip
+sudo pacman -S wl-paste
+sudo pacman -S wl-
+sudo pacman -Ss wl-
+pgrep clip
+pgrep way
+nvim ~/.config/niri/config.kdl
+./code
+nvim code
+nvim code.cpp
+cliphist
+cliphist watch
+wl-copy watch
+wl-paste --store
+wl-paste --watch
+wl-paste --watch cliphist
+wl-paste --watch cliphist store
+prep wl-
+pgrep wl-
+pgrep wl-paste
+nvim .config/niri/config.kdl
+exit
+sudo pacman -Syu --noconfirm; flatpak update; reboot
+pgrep wl-paste
+exit
+ls
+nvim input-output.rs
+exit
+LS
+ls
+exit
+ls
+cd Downloads/
+ls
+mv thisisanotherfire.doc thisisanotherfire.pdf
+mv thisisfiretoo.doc thisisfiretoo.docx
+mv thisisanotherfire.pdf fireornot.pdf
+ls
+rm thisisfire*
+rm Scre*
+ls
+rm fireornot.pdf
+sl
+ls
+exit
+ls
+exit
+nvim code.cpp
+open code.c
+open code.cpp
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+/.code
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+nvim .config/nvim/lua/vim-options.lua
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+cd Downloads/
+ls
+7z x `Supreme Duelist_4.0.4_APKPure.xapk`
+ls
+rm `Supreme Duelist_4.0.4_APKPure.xapk`
+rm icon.png manifest.json
+mv `Đoạn Đẹp.docx` beautiful-segment.docx
+ls
+mv SupremeDuelist
+mkdir SupremeDuelist
+mv *.apk SupremeDuelist/
+ls
+7z x `Uma Musume JP_2.17.5_APKPure.xapk`
+ls
+mkdir Umamusume
+rm `Uma Musume JP_2.17.5_APKPure.xapk`
+ls
+rm manifest.json icon.png 
+ls
+mv *.apk Umamusume/
+s
+wls
+ls
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+adb devices
+ls
+adb mount
+adb connect
+adb --help
+adb root
+sudo adb root
+adb usb
+adb reboot bootloader
+adb reboot sideload
+adb reboot
+adb devices
+exit
+sudo pacman -S --noconfirm
+sudo pacman -Suy --noconfirm
+flatpak list
+flatpak search ultraviewer
+exit
+nvim code.cpp
+nvim code.cs
+nvim code.c
+nvim .config/nvim/lua/vim-options.lua
+./code
+exit
+nvim code.c
+nvim .config/nvim/lua/vim-options.lua
+exit
+nvim code.c
+rm code_old.cpp
+exit
+gcc code.c -o code
+./code
+nvim code.c
+./code
+gcc code.c -o code
+/code
+./code
+gcc code.c -o code
+nvim code.c
+exit
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code
+./code
+nvim code.c
+gcc code.c -o code -O2
+./code
+ls
+open code.cpp | wl-copy
+open code.c | wl-copy
+nvim code.c
+nvim code.cpp
+sudo pacman -Suy --noconfirm && poweroff
+sudo pacman -Suy --noconfirm; poweroff
+open code.cpp
+ls
+sudo pacman -Suy --noconfir
+sudo pacman -Suy --noconfirm
+pgrep gam
+pgrep gamma
+pkill gammastep
+gammastep
+gammastep -m
+gammastep -h
+gammastep list
+gammastep -l list
+gammastep -h list
+gammastep -m list
+gammastep -o 0.2
+gammastep -o 0.2 -m wayland
+gammastep -m wayland -o 0.2
+gammastep -m wayland -b 0.2:0.9
+nvim .config/niri/config.kdl
+gammastep -m wayland -b 0.2:0.9 -l 20.9957:106.6881
+gammastep -m wayland -b 1.0:0.2 -l 20.9957:106.6881
+gammastep -m wayland -l 20.9957:106.6881
+gammastep -m wayland -l 20.9957:106.6881 -O 25
+gammastep -m wayland -l 20.9957:106.6881 -O 25000
+gammastep -m wayland -l 20.9957:106.6881 -O 25000K
+gammastep -m wayland -l 20.9957:106.6881 -O 1000
+gammastep -m wayland -l 20.9957:106.6881 -O 72727
+gammastep -m wayland -l 20.9957:106.6881 -O 7272
+gammastep -m wayland -l 20.9957:106.6881 -O 2000
+gammastep -m wayland -l 20.9957:106.6881 -O 1000
+gammastep -m wayland -l 20.9957:106.6881 -O 25000
+gammastep -m wayland -l 20.9957:106.6881 -O 1000
+gammastep -m wayland -l 20.9957:106.6881 -O 1727
+gammastep -m wayland -l 20.9957:106.6881 -h
+gammastep -m wayland -l 20.9957:106.6881 -O 6500
+gammastep -m wayland -l 20.9957:106.6881 -O 4500
+gammastep -m wayland -l 20.9957:106.6881 -O -t 6500:2500
+gammastep -m wayland -l 20.9957:106.6881 -O -t 6500K:2500K
+gammastep -m wayland -l 20.9957:106.6881 -O -t 6500
+gammastep -m wayland -l 20.9957:106.6881 -t 6500:2500
+gammastep -m wayland -l 20.9957:106.6881 -t 6500:3000
+poweroff
+nvim .config/waybar/config.jsonc
+mpris
+pkill waybar
+sh -ce "waybar &"
+exit
+nvim .config/waybar/config.jsonc
+pkill waybar
+sh -ce "waybar &"
+exit
+ip addr show
+exit
+firefox --help
+firefox --kiosk
+firefox --headless
+firefox --new-tab https://nhentai.net
+firefox --new-window https://nhentai.net
+firefox --new-window https://nhentai.net --kiosk
+firefox --new-window "https://nhentai.net" --kiosk
+firefox --new-window https://nhentai.net
+firefox --browser --kiosk --new-tab https://nhentai.net
+firefox --browser --new-tab https://nhentai.net
+firefox --kiosk --new-tab https://nhentai.net
+exit
+http get https://omarchy.org/install | bash
+wget -qO- https://omarchy.org/install | bash
+sudo pacman -S wget
+http get https://omarchy.org/install | bash
+exit
+ls
+sh -ce "waybar &"
+rm ~/.config/waybar/ -fr
+cp -rv ~/niriwm-dotfiles/.config/waybar/ .config/
+sh -ce "waybar &"
+nvim .config/waybar/config.jsonc
+rm ~/.config/nvim/ -fr
+cp -rv ~/niriwm-dotfiles/.config/nvim/ .config/
+nvim 
+nvim .config/waybar/config.jsonc
+pkill waybar
+sh -ce "waybar &"
+exit
+ping google.com
+exit
+ls
+nvim ~/.config/alacritty/fonts.toml
+ls
+nivm
+nvim
+exit
+firefox --kio
+firefox --kiosk
+eixt
+exit
+nvim code.c
+gcc code.c
+nvim code.c
+ls
+cp -rv ~/.config/niri/ niriwm-dotfiles/.config/
+cp -rv ~/.config/waybar/ niriwm-dotfiles/.config/
+cp -rv ~/.config/alacritty/ niriwm-dotfiles/.config/

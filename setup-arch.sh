@@ -6,7 +6,7 @@
 # sudo pacman-key --populate archlinux
 
 # Packages (General)
-sudo pacman -Sy --noconfirm --needed git base-devel less qbittorrent ripgrep neovim imv bat eza fcitx5 fcitx5-unikey fcitx5-config-qt mpv firefox flatpak ttf-jetbrains-mono-nerd 7zip alacritty noto-fonts-cjk man nnn brightnessctl playerctl
+sudo pacman -Sy --noconfirm --needed git base-devel less qbittorrent neovim imv bat fcitx5 fcitx5-unikey fcitx5-config-qt mpv firefox flatpak ttf-jetbrains-mono-nerd 7zip alacritty noto-fonts-cjk man nnn brightnessctl playerctl nushell
 
 # Install yay
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
@@ -21,11 +21,9 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
 
 # sudo usermod -aG video $USER # Replace $USER with your actual username.
 
-# Packages (Sway)
+# Packages (Niri)
 yay -S swaylock-effects --noconfirm 
-sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland bemoji fuzzel xdg-desktop-portal-wlr
-# If you want the vanilla sway
-# sudo pacman -S sway
+sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland bemoji fuzzel xdg-desktop-portal-wlr waybar
 
 bemoji --download all
 
@@ -52,8 +50,8 @@ bemoji --download all
 # bash <(curl -s "https://end-4.github.io/dots-hyprland-wiki/setup.sh")
 
 # OhMyZsh Setup
-sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting git-zsh-completion zsh-autosuggestions zsh-autocomplete zsh-history-substring-search zsh-completion
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+# sudo pacman -S --noconfirm --needed zsh zsh-syntax-highlighting git-zsh-completion zsh-autosuggestions zsh-autocomplete zsh-history-substring-search zsh-completion
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
 
 # cat "alias connect-wifi=\"sudo wpa_supplicant -B -i wlp2s0 -c /etc/wpa_supplicant/wpa_supplicant.conf && sudo dhcpcd\"" >> ~/.zshrc
 
