@@ -11,9 +11,9 @@ FILE="$OUTDIR/record_$(date +%Y%m%d_%H%M%S).mp4"
 if pgrep wf-recorder >/dev/null; then
     # Stop recording
     pkill wf-recorder
-    notify-send "Stopped Recording. File saved in $FILE."
+    notify-send "Recording saved in $FILE."
 else
     # Start full-screen recording in background
-    wf-recorder -r 60 -f "$FILE" &
+    wf-recorder -a alsa_output.pci-0000_00_1b.0.analog-stereo.monitor -r 60 -f "$FILE" &
     notify-send "Recording Screen..."
 fi

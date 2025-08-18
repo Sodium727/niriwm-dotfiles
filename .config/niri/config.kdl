@@ -37,7 +37,7 @@ input {
     drag false
     drag-lock
     natural-scroll
-    // accel-speed 0.2
+    accel-speed 0.5
     accel-profile "flat"
     scroll-method "two-finger"
     disabled-on-external-mouse
@@ -67,7 +67,7 @@ input {
 
   // Focus windows and outputs automatically when moving the mouse into them.
   // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
-  focus-follows-mouse max-scroll-amount="80%"
+  // focus-follows-mouse max-scroll-amount="80%"
 }
 
 /////////////
@@ -85,7 +85,7 @@ output "LVDS-1" {
   mode "1366x768@60.00"
 
   // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-  scale 0.75
+  scale 1.0
 
   // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
   transform "normal"
