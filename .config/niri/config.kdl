@@ -63,7 +63,7 @@ input {
   }
 
   // Uncomment this to make the mouse warp to the center of newly focused windows.
-  warp-mouse-to-focus
+  // warp-mouse-to-focus
 
   // Focus windows and outputs automatically when moving the mouse into them.
   // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
@@ -115,8 +115,8 @@ output "LVDS-1" {
 
 layout {
     gaps 5
-    center-focused-column "on-overflow"
-    always-center-single-column
+    center-focused-column "never"
+    // always-center-single-column
     // empty-workspace-above-first
     default-column-display "tabbed" // or "normal"
     background-color "#000000"
@@ -186,7 +186,7 @@ layout {
     }
 
     insert-hint {
-        off
+        // off
         color "#ffc87f80"
         // gradient from="#ffbb6680" to="#ffc88080" angle=45 relative-to="workspace-view"
     }
@@ -229,7 +229,7 @@ screenshot-path null
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
 animations {
   // Uncomment to turn off all animations.
-  off
+  // off
 
   // Slow down all animations by this factor. Values below 1 speed them up instead.
   slowdown 0.6666667
