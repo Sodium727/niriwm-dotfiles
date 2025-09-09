@@ -129,11 +129,11 @@ layout {
 
     default-column-width { proportion 0.5; }
 
-    // preset-window-heights {
-    //     proportion 0.33333
-    //     proportion 0.5
-    //     proportion 0.66667
-    // }
+    preset-window-heights {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
 
     focus-ring {
         off
@@ -361,8 +361,9 @@ binds { // Keys consist of modifiers separated by + signs, followed by an XKB ke
   Mod+Shift+P hotkey-overlay-title="Open Power Menu" {  spawn "sh" "-c" "~/.config/niri/power.sh"; }
   Mod+Space hotkey-overlay-title="Open App Runner" { spawn "fuzzel"; }
   Mod+Alt+L hotkey-overlay-title="Lock Screen" { spawn "swaylock"; }
-  Mod+E hotkey-overlay-title="Open TUI File Manager" { spawn "alacritty" "-e" "nnn"; }
+  Mod+E hotkey-overlay-title="Open File Manager" { spawn "nemo"; }
   Mod+Shift+E { spawn "alacritty" "-e" "nnn" "-H"; }
+  Mod+R { switch-preset-column-width; }
 
   // You can also use a shell. Do this if you need pipes, multiple commands, etc.
   // Note: the entire command goes as a single argument in the end.

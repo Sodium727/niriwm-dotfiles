@@ -6,12 +6,10 @@
 # sudo pacman-key --populate archlinux
 
 # Packages (General)
-sudo pacman -Sy --noconfirm --needed git base-devel less qbittorrent neovim imv bat fcitx5 fcitx5-unikey fcitx5-config-qt mpv firefox flatpak ttf-jetbrains-mono-nerd 7zip alacritty noto-fonts-cjk man nnn brightnessctl playerctl nushell
+sudo pacman -Sy --noconfirm --needed git base-devel less qbittorrent neovim imv bat fcitx5 fcitx5-unikey fcitx5-config-qt mpv firefox flatpak ttf-jetbrains-mono-nerd 7zip unzip alacritty noto-fonts-cjk noto-fonts-emoji man brightnessctl playerctl nushell nemo
 
 # Install yay
-git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
-
-
+# git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
 
 # Setup Audio
 # sudo pacman -Rns pulseaudio pulseaudio-alsa jack --noconfirm
@@ -23,9 +21,10 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -sifr
 
 # Packages (Niri)
 yay -S swaylock-effects --noconfirm 
-sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland bemoji fuzzel xdg-desktop-portal-wlr waybar
+sudo pacman -S --noconfirm --needed swaybg swaync cliphist swayidle gammastep xorg-xwayland xwayland-satellite fuzzel xdg-desktop-portal-wlr waybar niri
 
-bemoji --download all
+# sudo pacman -S --noconfirm bemoji
+# bemoji --download all
 
 # Packages (Hyprland)
 # sudo pacman -S --noconfirm --needed hyprlock hyprland hyprpaper hyprpolkitagent hyprsunset hyprpicker waybar
@@ -64,5 +63,5 @@ bemoji --download all
 # winetricks d3dcompiler_47 d3d9 d3d11 dxvk vulkan
 
 # Login git
-# git config --global user.email "tandatpham2608@gmail.com"
-# git config --global user.name "Sodium727"
+git config --global user.email "tandatpham2608@gmail.com"
+git config --global user.name "Sodium727"
