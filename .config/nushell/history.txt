@@ -2037,3 +2037,4636 @@ ls
 cp -rv ~/.config/niri/ niriwm-dotfiles/.config/
 cp -rv ~/.config/waybar/ niriwm-dotfiles/.config/
 cp -rv ~/.config/alacritty/ niriwm-dotfiles/.config/
+cp -rv ~/.config/nushell/ niriwm-dotfiles/.config/
+rm -fr ~/.config/i3/ .config/i3status-rust/ .config/hypr/ .config/kitty/
+ls
+cd .config/
+ls
+mv fastfetch/ fastfetch_bak
+fastfetch
+mv fastfetch_bak/ fastfetch
+fastfetch
+exit
+pkill gammastep
+exit
+ls
+nvim code.c
+gammastep -m wayland -l 20.9957:106.6881 -t 6500:3000
+exit
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+ping google.com
+sudo wifi-menu
+sudo systemctl enable netctl
+netctl c
+netctl list
+netctl edit
+netctl-auto 
+systemd-analyze blame
+systemd-analyze
+systemd-analyze blame
+systemd-analyze blame | wl-copy
+systemd-analyze critical-chain<\n>
+systemd-analyze blame | sed -n '1,40p'<\n>
+systemctl --failed --no-pager<\n>
+journalctl -b --no-pager | egrep -i 'timed out|fail(ed)?|error|cannot|not found|dependency' | sed -n '1,120p'<\n>
+cat /etc/fstab<\n>lsblk -f<\n>blkid<\n>
+systemctl list-units --type=device --all | sed -n '1,200p'<\n>
+systemctl list-units  | sed -n '1,200p'<\n>
+systemctl list-units --all | sed -n '1,200p'<\n>
+systemd-analyze critical-chain
+systemctl --failed
+journalctl -b --no-pager | egrep -i 'timed out|fail(ed)?|error|cannot|not found|dependency' | sed -n '1,120p'<\n>
+journalctl -b --no-pager | egrep -i 'timed out|fail(ed)?|error|cannot|not found|dependency' | sed -n '1,120p'<\n> | wl-copy
+cat /etc/fstab
+cat /etc/fstab | wl-copy
+lsblk -f
+lsblk -f | wl-copy
+sudo systemctl disable netctl@wlp2s0\x2dThanh\x20Nguyen\x20Yoga.service
+ls -l /etc/netctl<\n>
+systemctl list-units --type=service | grep netctl
+systemctl list-unit-files | grep netctl
+sudo systemctl enable netctl-auto
+sudo systemctl enable netctl-auto@
+sudo systemctl disable --now 'netctl@wlp2s0-Thanh Nguyen Yoga.service'<\n>
+sudo systemctl disable --now netctl@wlp2s0-Thanh Nguyen Yoga.service<\n>
+sudo systemctl disable --now netctl@wlp2s0\x2dThanh\x20Nguyen\x20Yoga.service
+ls -l /etc/netctl<\n>
+sudo rm `/etc/netctl/wlan0-EX_Thanh Nguyen Yoga`
+sudo rm `/etc/netctl/wlp2s0-EX_Thanh Nguyen Yoga`
+ip link
+exit
+sudo systemctl disable --now 'netctl@*'   # careful — disables all netctl instances<\n>
+exit
+nvim `/etc/netctl/wlp2s0-FPT T3 163`
+sudo nvim `/etc/netctl/wlp2s0-FPT T3 163`
+ls
+ls /etc
+sudo nvim /etc/sudo.conf
+sudo nvim /etc/sudoers.d/
+sudo pacman -Syu --noconfirm
+exit
+yt-dlp https://www.facebook.com/reel/4254996758071300
+pip install git+https://github.com/openai/whisper.git
+pip install git+https://github.com/openai/whisper.git --break-system-packages
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu --break-system-packages
+ls
+mv '357K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4' target-vid.mp4
+mv target-vid.mp4 target.mp4
+whisper target.mp4 --model small --language en --output_format txt<\n>
+whisper
+exxit
+exit
+whisper
+pip -m whisper target.mp4 --model small --language en --output_format txt<\n>
+pip whisper target.mp4 --model small --language en --output_format txt<\n>
+pip -r whisper target.mp4 --model small --language en --output_format txt<\n>
+python -m site --user-base<\n>
+./local/bin/whisper target.mp4 --model small --language en --output_format txt<\n>
+nvim .config/nushell/config.nu
+./local/bin/whisper target.mp4 --model small --language en --output_format txt<\n>
+nvim .config/nushell/config.nu
+echo $env.HOME
+nvim .config/nushell/config.nu
+exit
+whisper
+nvim .config/nushell/config.nu
+exit
+nvim .config/nushell/config.nu
+exit
+ls
+.local/bin/whisper target.mp4 --model small --language en --output_format txt<\n>
+mpv target.mp4
+ls
+rm target.mp4
+nvim target.txt
+yt-dlp https://www.facebook.com/reel/4254996758071300
+mpv '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+sudo pacman -S vlc
+vlc '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+ls
+cvlc '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+ls
+mpv '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+ls
+ls
+mpv '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+whisper '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4' --model small --language en --output_format txt<\n>
+mpv Videos/record_20250813_110307.mp4
+rm Videos/*
+exit
+ls
+rm '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+rm '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].txt'
+ls
+yt-dlp https://www.facebook.com/reel/4254996758071300
+whisper '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4' --model small --language en --output_format txt<\n>
+exit
+whisper '360K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4' --model small --language en --output_format txt<\n>
+rm Videos/*
+ls
+rm '362K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].mp4'
+yt-dlp -x  https://www.facebook.com/reel/4254996758071300
+mv '362K views · 18K reactions ｜ That bars was holy, literally 😂 ｜ Trending Today [4254996758071300].m4a' target.mp4
+whisper target.mp4 --model small --language en --output_format txt<\n>
+ls Videos/
+s
+ls
+rm target.*
+ls
+exit
+systemd-analyze critical-chain
+sudo pacman -Rns NetworkManager
+sudo pacman -Rns NetworkManager iwd
+sudo pacman -Rnsn etworkmanager iwd
+sudo pacman -Rns  networkmanager iwd
+sudo systemctl enable netctl
+sudo pacman -S wpa_supplicant --noconfirm
+reboot
+ping google.com
+exit
+ls
+nvim .config/niri/config.kdl
+wf-recorder  --help
+nvim .config/niri/record-toggle.sh
+mpv Videos/record_20250813_151223.mp4
+rm Videos/record_20250813_151223.mp4
+tgpt "how do I strip out the audio of a .mp4 file (leave only the video)?"
+cd Videos/
+ls
+ffmpeg -i record_20250813_111225.mp4 AI_Subtitles.mp4
+mpv AI_Subtitles.mp4
+ls
+rm AI_Subtitles.mp4
+ffmpeg -i record_20250813_111225.mp4 -an -c copy AI_Subtitles.mp4
+mpv AI_Subtitles.mp4
+ls
+rm record_20250813_111225.mp4
+exit
+ls
+nvim code.c
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+ls
+ls Downloads/
+cd Downloads/
+ls
+vlc 3804.mp4
+cvlc 3804.mp4
+mpv 3804.mp4
+ls
+ls .games/
+mkdir .videos
+mv 3804.mp4 .videos/
+libreoffice beautiful-segment.docx
+ls
+rm ti*
+exit
+lsblk
+ls
+mpv sq.mp3
+exit
+ls
+nvim code.cpp
+nvim ~/.config/nvim/lua/vim-options.lua
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.c
+gcc code.c -o
+gcc code.c -o code -O2
+./code
+nvim code.c
+gcc code.c -o code -O2
+nvim code.c
+gcc code.c -o code -O2
+./code
+exit
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+cat | save Documents/__protected__/keys/gpt_mfa.txt
+ls
+bat Documents/__protected__/keys/gpt_mfa.txt
+wexit
+exit
+ls
+cd Documents/codes/
+ls
+mv exercises/online/* . -v
+ls
+ls codeforces/
+ls
+ls exercises/
+ls exercises/online/
+rm exercises/online/ -fr
+cd exercises/
+ls
+ls normal/* .
+ls
+mv normal/* .
+ls
+rm normal/ -fr
+ls
+cd strings/
+l
+ls
+sudo pacman -S speedtest-go
+sudo pacman -S speedtest-cli
+speedtest 
+nvim FUNNY.cpp
+ls
+cd 
+cd ..
+ls
+cd dat/
+ls
+cd llm/
+ls
+cd Meta-Llama-3.1-8B/
+ls
+speedtest-cli 
+rm Meta-Llama-3.1-8B-Instruct-IQ4_XS.gguf
+llama-cli -m Meta-Llama-3.1-8B-Instruct-Q2_K.gguf
+/home/dat/llm/llama.cpp/bin/llama-cli -m Meta-Llama-3.1-8B-Instruct-Q2_K.gguf
+exit
+pkill  gammastep
+pkill swayidle
+exit
+l
+nvim 
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+ls
+nvim code.cpp
+ls
+cd .config/nvim/lua/plugins/
+ls
+nvim autoclose.lua
+ls
+cat neoformat.lua
+cat autoclose.lua
+nvim
+cd -
+nvim code.cpp
+sudo pacman -S clang-format
+nvim code.cpp
+nvim code.c
+clang-format 
+clang-format code.cpp
+nvim code.cpp
+clang-format code.cpp | save -f code.cpp
+nvim code.cpp
+ls
+clang-format code.cpp
+cat | save -f code.cpp
+clang-format code.cpp
+clang-format code.cpp | echo | save -f code.cpp
+nvim code.cpp
+clang-format code.cpp | echo | save  code.cpp
+clang-format code.cpp | echo | save -f code.cpp
+cat | save -f code.cpp
+clang-format code.cpp | wl-copy
+nvim code.cpp
+ls
+cd Downloads/
+7z x 'My Cloud [15-08-2025 09_32].zip'
+ls
+mkdir string-exercises
+mv *.jpg string-exercises/
+cd string-exercises/
+ls
+cd Downloads/
+ls
+rm 'My Cloud [15-08-2025 09_32].zip'
+cd string-exercises/
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+open code.cpp | wl-copy
+nvim code.cpp
+clang-format code.cpp | wl-copy
+nvim code.cpp
+nvim .config/nvim/lua/vim-options.lua
+nvim code.cpp
+nvim .config/nvim/lua/vim-options.lua
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+ope
+open code.cpp | wl-copy
+nvim code.cpp
+clang-format code.cpp | wl-copy
+imv-dir 026b51852691aecff7803.jpg
+nvim code.cpp
+ls
+cd Downloads/string-exercises/
+ls
+cd ..
+cls
+ls
+mkdir tinhoc2021chinhthuc
+mkdir tinhoc2021dubi
+mv `Tin hoc 2021 (chinh thuc).pdf` tinhoc2021chinhthuc/
+mv `Tin hoc 2021 (du bi).pdf` tinhoc2021dubi/
+ls
+rm `HSG THPT bang A_Tin.signed.pdf`
+cd tinhoc2021chinhthuc/
+ls
+firefox `Tin hoc 2021 (chinh thuc).pdf`
+ls
+nvim typing.cpp
+ls
+nvim typing.cpp
+g++ typing.cpp
+g++ typing.cpp -o typing -O2
+./typing
+cat | save -f TYPING.INP
+rm typing.cpp
+ls
+./typing
+open TYPING.OUT
+ls
+ls Videos/
+exit
+nvim typing.cpp
+g++ typing.cpp -o typing -O2
+./typing
+open TYPING.OUT
+open TYPING.INP
+nvim typing.cpp
+g++ typing.cpp -o typing -O2
+time ./typing
+time =p
+duration
+format duration
+long
+ls
+nvim typing.cpp
+g++ typing.cpp -o typing -O2
+./typing
+open TYPING.INP
+open TYPING.OUT
+g++ typing.cpp -o typing -O2
+nvim typing.cpp
+g++ typing.cpp -o typing -O2
+sh
+open TYPING.OUT
+cd Downloads/tinhoc2021chinhthuc/
+g++ typing.cpp -o typing -O2
+./typing; open TYPING.OUT
+g++ typing.cpp -o typing -O2
+./typing; open TYPING.OUT
+g++ typing.cpp -o typing -O2
+./typing; open TYPING.OUT
+open typing.cpp | wl-copy
+g++ typing.cpp -o typing -O2; ./typing; open TYPING.OUT
+nvim typing.cpp
+ls
+cd 
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim typing.cpp
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+open code.cpp | wl-copy
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code 
+python
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+./code
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+ls
+exit
+g++ code.cpp -o code -O2; ./code
+./code
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+exit
+exit
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+exit
+ext
+exit
+nvim .config/niri/record-toggle.sh
+nvim .config/niri/config.kdl
+exit
+pkill swayidle
+pkill gammastep
+gammastep -m wayland -l 20.9957:106.6881 -t 6500:3500
+gammastep -m wayland -l 20.9957:106.6881 -t 6500:4000
+nvim .config/niri/config.kdl
+exit
+ls
+cd Downloads/tinhoc2021chinhthuc/
+ls
+cd ..
+cd tinhoc2021dubi/
+ls
+firefox `Tin hoc 2021 (du bi).pdf`
+ls
+nvim ATRAVEL.cpp
+cd Downloads/tinhoc2021chinhthuc
+nvim TYPING.cpp
+g++ TYPING.cpp -o typing -O2
+nvim TYPING.cpp
+g++ TYPING.cpp -o typing -O2
+./typing; open TYPING.OUT
+nvim 
+g++ TYPING.cpp -o typing -O2
+./typing; open TYPING.OUT
+nvim 
+cd Downloads/tinhoc2021chinhthuc
+g++ TYPING.cpp -o typing -O2
+./typing; open TYPING.OUT
+nvim TYPING.cpp
+clang-format TYPING.cpp | wl-copy
+nvim TYPING.cpp
+g++ TYPING.cpp -o typing -O2
+./typing; open TYPING.OUT
+ls
+cmatrix
+ls
+cd Downloads/string-exercises/
+ls
+cd Downloads/string-exercises/
+nvim 25.cpp
+g++ 25.cpp -o 25
+./25
+nvim 23.cpp
+cp 25.cpp 23.cpp
+nvim 23.cpp
+clang-format 23.cpp
+clang-format 23.cpp | wl-copy 
+imv-dir 026b51852691aecff7803.jpg
+nvim 23.cpp
+g++ 23.cpp -o 23
+./23
+nvim 23.cpp
+g++ 23.cpp -o 23
+./23
+nvim 
+nvim 23.cpp
+rm 23.cpp
+nvim 23.cpp
+g++ 23.cpp -o 23
+./23
+nvim 23.cpp
+g++ 23.cpp -o 23
+./23
+ls
+imv 026b51852691aecff7803.jpg
+mv 026b51852691aecff7803.jpg 25.jpg
+imv 09c222245530dd6e84214.jpg
+mv 09c222245530dd6e84214.jpg 23.jpg
+imv 0d7a7aff09eb81b5d8fa13.jpg
+mv 0d7a7aff09eb81b5d8fa13.jpg 10.jpg
+poweroff
+ls
+cd Downloads/
+ls
+7z x 'My Cloud [16-08-2025 09_32].zip' o
+ls
+firefox `AtCoder Beginner Contest 178.pdf`
+rm `AtCoder Beginner Contest 178.pdf`
+7z h
+ls
+7z --help
+ls
+7z x 'My Cloud [16-08-2025 09_32].zip' -oHSGTP_HANOI2425
+ls
+rm 'My Cloud [16-08-2025 09_32].zip'
+cd HSGTP_HANOI2425/
+ls
+imv 28806214e2256a7b33344.jpg
+nvim code.cpp
+clang-format code.cpp | wl-copy
+nvim code.cpp
+ls
+cd Downloads/
+l
+ls
+cd HSGTP_HANOI2425/
+l
+ls
+imv 59969bfc1acd9293cbdc1.jpg
+mv 59969bfc1acd9293cbdc1.jpg 1.jpg
+imv 8883a2e523d4ab8af2c53.jpg
+mv 8883a2e523d4ab8af2c53.jpg 3.jpg
+imv bf4cfa217b10f34eaa012.jpg
+mv bf4cfa217b10f34eaa012.jpg 2.jpg
+mv 28806214e2256a7b33344.jpg 4.jpg
+ivm 4.jpg
+imv 4.jpg
+ls
+cd 
+cd Downloads/HSGTP_HANOI2425/
+nvim KHOASO.cpp
+g++ KHOASO.cpp
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+g++ KHOASO.cpp -o KHOASO -O2
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+g++ KHOASO.cpp -o KHOASO -O2
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+g++ KHOASO.cpp -o KHOASO -O2
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+g++ KHOASO.cpp -o KHOASO -O2
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+ls
+nvim MUASAM.cpp
+tgpt "how do I get file i/o in C"
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+ls
+cat | save -f KHOASO.INP
+./KHOASO
+open KHOASO.OUT
+exit
+nvim 
+exit
+nvim
+ls
+nvim KHOASO.cpp
+nvim MUASAM.cpp
+cat | save -f MUASAM.INP
+g++ MUASAM.cpp -o MUASAM -O2
+./MUASAM.cpp
+./MUASAM
+open MUASAM.OUT
+nvim MUASAM.cpp
+g++ MUASAM.cpp -o MUASAM -O2
+./MUASAM
+open MUASAM.OUT
+nvim MUASAM.cpp
+g++ MUASAM.cpp -o MUASAM -O2
+./MUASAM
+open MUASAM.OUT
+nvim MUASAM.cpp
+g++ MUASAM.cpp -o MUASAM -O2; ./MUASAM
+open MUASAM.OUT
+nvim MUASAM.cpp
+g++ MUASAM.cpp -o MUASAM -O2; ./MUASAM
+open MUASAM.OUT
+nvim MUASAM.cpp
+cat | save -f MUASAM.INP
+g++ MUASAM.cpp -o MUASAM -O2; ./MUASAM
+open MUASAM.OUT
+cat | save -f DENLONG.INP
+cd Downloads/HSGTP_HANOI2425/
+nvim DENLONG.cpp
+cp KHOASO.cpp DENLONG.cpp
+nvim DENLONG.cpp
+g++ DENLONG.cpp -o DENLONG -O2; ./DENLONG
+ls
+open DENLONG.INP
+nvim DENLONG.cpp
+g++ DENLONG.cpp -o DENLONG -O2; ./DENLONG
+open DENLONG.OUT
+rm DENLONG.cpp
+rm KHOASO.cpp
+rm MUASAM.cpp
+nvim KHOASO.
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+nvim KHOASO.cpp
+g++ KHOASO.cpp -o KHOASO -O2
+./KHOASO
+open KHOASO.OUT
+cp KHOASO.cpp MUASAM.cpp
+nvim MUASAM.cpp
+g++ MUASAM.cpp -o MUASAM -O2; ./MUASAM
+open MUASAM.OUT
+nvim DENLONG.cpp
+cp KHOASO.cpp DENLONG.cpp
+nvim DENLONG.cpp
+g++ DENLONG.cpp -o DENLONG -O2; ./DENLONG
+open DENLONG.OUT
+imv-dir 1.jpg
+exit
+niri validate
+nvim .config/niri/config.kdl
+ls
+cp -rv .config/niri/ niriwm-dotfiles/.config/
+exit
+ls
+exit
+ls Pictures/ScreenShots/Shot-2025-06-25-172952.png
+imv-dir `Pictures/Screenshots/Screenshot from 2025-07-17 18-46-41.png`
+rm Pictures/Screenshots/* 
+cd Pictures/ScreenShots/
+ls
+imv Shot-2025-06-25-172952.png
+cd ..
+rm ScreenShots/ -fr
+niri validate
+rm ~/.config/niri/bg/wallpaper.jpg
+nvim ~/.config/niri/config.kdl
+cd 
+cp -rv .config/niri/ niriwm-dotfiles/.config/
+cd niriwm-dotfiles/
+ls
+git add .
+nvim setup-arch.sh
+ls
+git add .
+git commit -m "Repolish .config/niri"
+bat ~/Documents/__protected__/keys/github-token.txt
+bat ~/Documents/__protected__/keys/github-token.txt | wl-copy
+git push
+ls
+cd Downloads/string-exercises/
+nvim 10.cpp
+g++ 10.cpp -o 10 -O2
+nvim 10.cpp
+g++ 10.cpp -o 10 -O2
+./10
+nvim 10.cpp
+open 10.cpp | wl-copy
+nvim 10.cpp
+g++ 10.cpp -o 10 -O2
+./10
+Lap trinh huong doi tuong
+ls
+nvim 8.cpp
+g++ 8.cpp -o 8 -O2
+./8
+imv-dir Downloads/string-exercises/10.jpg
+ls
+cd Downloads/string-exercises/
+ls
+imv 38f4c37eaf6a27347e7b16.jpg
+mv 38f4c37eaf6a27347e7b16.jpg 7.jpg
+imv  3a2ab9c5ced1468f1fc02.jpg
+mv  3a2ab9c5ced1468f1fc02.jpg 26.jpg
+imv 1604f93294261c78453715.jpg
+mv 1604f93294261c78453715.jpg 8.jpg
+imv 1d384f19230dab53f21c17.jpg
+mv 1d384f19230dab53f21c17.jpg 5.2.jpg
+imv 5.2.jpg
+imv 595ce57d92691a37437810.jpg
+mv 595ce57d92691a37437810.jpg 13.jpg
+imv 61551bb16ca5e4fbbdb45.jpg
+mv 61551bb16ca5e4fbbdb45.jpg 21.jpg
+imv 7c8046c037d4bf8ae6c512.jpg
+mv 7c8046c037d4bf8ae6c512.jpg 11.jpg
+imv 7d6f47863092b8cce1831.jpg
+mv 7d6f47863092b8cce1831.jpg 28.jpg
+mv c56a20a457b0dfee86a16.jpg
+imv c56a20a457b0dfee86a16.jpg
+mv c56a20a457b0dfee86a16.jpg 20.jpg
+ls
+imv fc6dea8285960dc8548718.jpg
+mv fc6dea8285960dc8548718.jpg 5.1.jpg
+imv e2726f58184c9012c95d7.jpg
+mv e2726f58184c9012c95d7.jpg 17.jpg
+imv be6d6da21fb697e8cea714.jpg
+mv be6d6da21fb697e8cea714.jpg 9.jpg
+imv 816835554341cb1f925011.jpg
+mv 816835554341cb1f925011.jpg 12.jpg
+imv 8b32c01cb7083f5666198.jpg
+mv 8b32c01cb7083f5666198.jpg 15.jpg
+imv 838b91a7e6b36eed37a29.jpg
+mv 838b91a7e6b36eed37a29.jpg 14.jpg
+cd Downloads/string-exercises/
+ls
+nvim 5.1.cpp
+g++ 5.1.cpp -o "5.1" -O2
+./5.1
+nvim 5.1.cpp
+g++ 5.1.cpp -o "5.1" -O2
+./5.1
+cp 5.1.cpp 5.2.cpp
+nvim 5.2.cpp
+g++ 5.2.cpp -o "5.2" -O2
+./5.2
+nvim 
+g++ 5.2.cpp -o "5.2" -O2
+./5.2
+nvim 5.2
+nvim 5.2.cpp
+g++ 5.2.cpp -o "5.2" -O2
+ls
+nvim ~/.config/niri/config.kdl
+exit
+./5.2
+nvim 5.2.cpp
+nvim 7.cpp
+g++ 7.cpp -o 7 -O2
+./7
+imv-dir 5.1.jpg
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+./code
+g++ code.cpp -o code -O2; ./code
+./code
+g++ code.cpp -o code -O2; ./code
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+rm code.cpp
+ls
+nvim code.
+nvim code.cpp
+exit
+nvim code.cpp
+git clone https://github.com/ai-loli/SNAKE-XENZIA-GAME.git
+cd SNAKE-XENZIA-GAME/
+ls
+nvim game.cpp
+nvim main.cpp
+nvim game.cpp
+g++ game.cpp -O game -O2
+sudo pacman -S freeglut
+sudo pacman -S libglvnd
+g++ main.cpp -lGL -lGLU -lglut -o snake<\n>
+g++ main.cpp -O snake
+nvim main.cpp
+git clone https://github.com/Sh1v4nk/SnakeXenzia.git
+sudo pacman -S mingw-w64-gcc<\n>
+ls
+cd ..
+rm SNAKE-XENZIA-GAME/ -fr
+exit
+cd SnakeXenzia/
+ls
+firefox index.html
+ls
+cd ..
+ls
+rm SnakeXenzia/ -fr
+git clone https://github.com/Sh1v4nk/SnakeXenzia.git
+cd SnakeXenzia/
+ls
+firefox index.html
+nvim index.html
+nvim script.js
+nvim style.css
+cd ..
+ls
+nvim  snake.cpp
+ls
+nvim ~/.config/niri/config.kdl
+niri-session msg output "LDVS-1" transform "90"
+niri-session msg output "LDVS-1" transform 90
+niri-session msg output "LDVS-1" transform
+niri-session msg output "LDVS-1" 
+nvim ~/.config/niri/config.kdl
+nvim  snake.cpp
+nvim ~/.config/niri/config.kdl
+g++ snake.cpp -o snake -O2
+./snake
+ls
+nvim snake.cpp
+g++ snake.cpp -o snake -O2
+./snake
+rm Videos/record_20250816_215320.mp4
+rm Videos/record_20250816_221533.mp4
+ls
+nvim snake.cpp
+g++ snake.cpp -o snake -O2
+./snake
+ls Videos/record_20250816_221633.mp4
+ls
+rm Videos/record_20250816_22*
+exit
+niri-session 
+systemctl --user status niri.service
+journalctl --user -xeu niri.service
+niri-session 
+sudo systemctl enable niri
+systemctl --user status niri.service
+nvim .config/niri/config.kdl
+tty
+echo "XDG_VTNR=$XDG_VTNR"
+sh 
+loginctl 
+systemctl status systemd-logind
+systemctl status seatd
+journalctl --user -u niri.service -b --no-pager | tail -n 80
+LIBSEAT_BACKEND=logind /usr/bin/niri --session<\n>
+systemctl --user edit niri.service<\n>
+EDITOR=nvim ystemctl --user edit niri.service<\n>
+EDITOR=nvim systemctl --user edit niri.service<\n>
+niri --session
+sudo pacman -S seatd<\n>sudo usermod -aG seat $USER<\n>sudo systemctl enable --now seatd<\n># log out and log back in (needed for group change) then start niri on a VT<\n>
+sudo pacman -S seatd<\n>sudo usermod -aG seat $env.USER<\n>sudo systemctl enable --now seatd<\n># log out and log back in (needed for group change) then start niri on a VT<\n>
+ls
+mv snake autoSnake
+nvim snake.cpp
+g++ snake.cpp -o autoSnake -O2
+./autoSnake
+exit
+nvim .config/niri/config.kdl
+exit
+nvim .config/niri/config.kdl
+exit
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+lslbk
+ping google.com
+ls
+speedtest-cli 
+speedtest 
+ls
+ping google.com
+exit
+sudo pacman -Syu --noconfirm
+ls
+mv SnakeXenzia/ SnakeXenziaWeb
+nvim code.c
+ping google.com
+ip link
+ip addr show
+exit
+sudo wifi-menu
+speedtest 
+exti
+eixt
+exit
+ls
+ls Pictures/
+cd Pictures/
+ls
+magick 
+convert yi.png yi.jpg
+magick yi.png yt.jpg
+ls
+rm yi.jpg
+mv yt.jpg yi.jpg
+ls
+rm yi.jpg
+mv ../Downloads/yi.jpg .
+ls
+mv ../Downloads/yi.jpg yi_small.jpg
+ls
+cd ..
+ls
+./autoSnake
+open snake.cpp | wl-copy
+exit
+ls
+nvim code.cpp
+sudo wifi-menu
+exit
+ping google.com
+speedtest-cli
+exit
+ls
+ls Documents/ielts/stolen-course/
+ls Documents/ielts/stolen-course/2525/
+mv `Downloads/U3 Comparing things - Copy.pptx` Documents/ielts/stolen-course/2525/
+ls
+cd Downloads/
+ls
+firefox `Vật Lí.pdf`
+ls
+mv `Vật Lí.pdf` `Vật Lí 10.pdf`
+ls
+rm `Key mini test lesson 4.docx`
+firefox `Speaking Part 2 Combo.pdf`
+ls
+mv ~/Documents/ielts/general-speaking
+mv ~/Documents/ielts/general-speaking -p
+mkdir ~/Documents/ielts/general-speaking -p
+mkdir ~/Documents/ielts/general-speaking
+ls
+mv `Speaking Part 2 Combo.pdf` ~/Documents/ielts/general-speaking/
+mv ~/Documents/ielts/general-speaking ~/Documents/ielts/speaking-general
+ls
+exit
+wls
+ls
+yt-dlp -x https://youtu.be/_Q8Ih2SW-TE
+ls
+rm Le*
+ls
+exit
+sudo pacman -Rns fish
+sudo pacman -Rns ux
+sudo pacman -Rns uxterm
+sudo pacman -Qs xuterm
+sudo pacman -Qs ux
+sudo pacman -Qs uxterm
+sudo pacman -Qs term
+sudo pacman -Rns xtemr
+sudo pacman -Rns xterm
+sudo pacman -Rns ultraview
+sudo pacman -Rns ultraviewer
+sudo pacman -Qs ultraviewer
+exit
+sl
+sudo pacman -S sl
+sl
+exit
+sudo pacman -S piper
+piper
+eixt
+exit
+bootctl list
+sudo pacman -S thunderbird
+sudo pacman -Rns thunderbird
+exit
+ls
+sudo pacman -S qemu-guest-agent
+yay -S linutil-bin
+ls
+ls Videos/ -lh
+ls Videos/ -h
+ls Videos/ -l
+ls Videos/ 
+mpv Videos/record_20250817_214259.mp4
+ls
+rm Videos/record_20250817_214259.mp4
+rm Videos/record_20250817_214933.mp4
+ls Videos/record_20250817_215123.mp4
+ls Videos/
+ls
+cd Videos/
+ls
+mpv record_20250817_121644.mp4
+rm record_20250817_121644.mp4
+mpv record_20250817_215123.mp4
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+sudo pacman -S obs-studio
+exit
+ls
+sudo pacman -S --needed xdg-desktop-portal-gnome
+mpv sq.mp3
+ls
+mpv `2025-08-18 08-44-32.mkv`
+rm `2025-08-18 08-44-32.mkv`
+exit
+pactl list short sources<\n>
+exit
+nvim .config/niri/config.kdl
+nvim .config/niri/record-toggle.sh
+mpv sq.mp3
+mpv Videos/record_20250818_085446.mp4
+rm Videos/record_20250818_085446.mp4
+pactl list short source
+pactl list short sources
+nvim .config/niri/record-toggle.sh
+mpv sq.mp3
+wf-recorder -a alsa_output.pci-0000_00_1b.0.analog-stereo.monitor -f vid.mp4
+ls
+mpv vid.mp4
+wf-recorder --help
+pactl list sources
+pactl list sources | rg output
+ls
+mpv vid.mp4
+mpv sq.mp3
+wf-recorder --audio=alsa_output.pci-0000_00_1b.0.analog-stereo.monitor -f vid.mp4
+ls
+mpv vid.mp4
+ls
+ls
+nvim .config/niri/config.kdl
+sudo pacman -S pipewire
+nvim .config/alacritty/fonts.toml
+ls
+exit
+wf-recorder --audio=alsa_output.pci-0000_00_1b.0.analog-stereo.monitor --audio-backend=pipewire -f vid.mp4
+mpv vid.mp4
+ls
+cd swaywm-dotfiles/
+ls
+cp -rv ~/.config/niri/ .config/
+cp -rv ~/.config/alacritty/ .config/
+ls
+cd //
+ls
+cd .
+ls
+cd .
+ls
+cd 
+ls
+rm swaywm-dotfiles/ -fr
+cd niriwm-dotfiles/
+ls
+cp -rv ~/.config/alacritty/ .config/
+cp -rv ~/.config/niri/ .config/
+ls
+cd .config/niri/i
+cd .config/niri/
+ls
+cd ..
+ls
+bat ~/Documents/__protected__/keys/github-token.txt | wl-copy
+git add .
+git commit -m "Change back scale to 1.0 for OBS support. Improved record-toggle.sh to internal audio only."
+git push
+ls
+wf-recorder --audio=alsa_output.pci-0000_00_1b.0.analog-stereo.monitor -f vid.mp4
+ls
+nvim niriwm-dotfiles/setup-arch.sh
+mpv vid.mp4
+ls
+rm vid.mp4
+mpv sq.mp3
+ls
+cd Downloads/string-exercises/
+ls
+cd Downloads/string-exercises/
+nvim 9.cpp
+cd Downloads/string-exercises/
+g++ 9.cpp -o 9 -O2
+./9
+g++ 9.cpp -o 9 -O2
+./9
+ls
+fastfetch
+free -lwth --si -s 0.75
+exit
+cd Downloads/string-exercises/
+./9
+g
+g++ 9.cpp -o 9 -O2
+./9
+firefox ideone.com/dkSZRF
+nvim 9.cpp
+clang-format 9.cpp | wl-copy
+nvim 9.cpp
+exit
+imv-dir 9.jpg
+exit
+notify-send hi
+pkill swaync
+notify-send hi
+ext
+exit
+nvim .config/swaync/config.json
+exit
+swaync 
+exit
+open Downloads/string-exercises/9.cpp | wl-copy
+exit
+nvim Downloads/string-exercises/9.cpp
+exit
+cd Downloads/string-exercises/
+nvim 9.cpp
+g++ 9.cpp -o 9 -O2
+./9
+./
+./9
+nvim 9.cpp
+ls
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+open 12.cpp | wl-copy 
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+g++ 12.cpp -o 12 -O2
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+g++ 12.cpp -o 12 -O2
+nvim
+g++ 12.cpp -o 12 -O2
+./12
+nvim 
+g++ 12.cpp -o 12 -O2
+./12
+g++ 12.cpp -o 12 -O2
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+ls
+nvim 12.cpp
+./12
+nvim 12.cpp
+nvim 11.cpp
+g++ 11.cpp -o 11 -O2
+./11
+nvim 11.cpp
+g++ 11.cpp -o 11 -O2
+./11
+nvim 11.cpp
+./11
+nvim 
+g++ 11.cpp -o 11 -O2
+./11
+nvim 
+g++ 11.cpp -o 11 -O2
+./11
+nvim 11.cpp
+g++ 11.cpp -o 11 -O2
+./11
+nvim 11.cpp
+g++ 11.cpp -o 11 -O2
+./11
+nvim 11.cpp
+g++ 11.cpp -o 11 -O2
+./11
+ls
+rm 12.cpp
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2
+./12
+ls
+exit
+Downloads/osu.AppImage
+exit
+cd Downloads/
+ls
+7z x `HSG_BANG A-20250818T110933Z-1-001.zip`
+rm `HSG_BANG A-20250818T110933Z-1-001.zip`
+ls
+firefox roadmap.pdf
+mv roadmap.pdf grade12roadmap.pdf
+ls
+mv `HSG_BANG A/` HSGTP_HANOI2425/ tinhoc2021chinhthuc/ tinhoc2021dubi/ ~/Documents/codes/exercises
+ls
+ls ~/Documents/codes/help/book.pdf
+mv `Cac chuyen de Thuat toan.pdf` ~/Documents/codes/help/
+cd ~/Documents/codes/help/
+ls
+firefox book.pdf
+mv book.pdf "Competitive Programmer’s Handbook.pdf"
+ls
+firefox `Competitive Programmer’s Handbook.pdf`
+ls
+ls algo/w
+ls algo/
+cd algo/
+open prime-check.cpp
+open prime-check.cpp | less
+mv prime-check.cpp miller-rabin-prime-check.cpp
+open greedy-plan-pick.cpp | wl-copy
+open greedy-plan-pick.cpp | less
+ls
+nvim factorize.cpp
+bat factorize.cpp
+cd ..
+ls
+ls algorithms/
+ls install/
+bat install/install_choco.txt
+ls
+ls lib/
+ls lib/c/
+ls lib/c/gmp_h_usage.c
+bat lib/c/gmp_h_usage.c
+rm lib/ -fr
+ls
+ls terminal/
+bat terminal/g++cmd.txt
+ls
+rm terminal/ -fr
+ls
+tree
+exit\
+sudo pacman -S tree --noconfirm
+exit
+tree algorithms/
+tree algorithms | bat
+tree algorithms | ;ess
+tree algorithms | less
+tree algorithms | bat
+rm algo -fr
+bat algorithms/string_finding/KMP.cpp
+bat algorithms/dp/knapsack.cpp
+nvim algorithms/dp/knapsack.cpp
+ls
+cd .
+cd algorithms/
+ls
+mv path_finding/
+nvim path_finding/dfs.cpp
+nvim path_finding/Astar.cpp
+cd ..
+cd -
+ls
+cd sorting/timsort.cpp
+bat  sorting/timsort.cpp
+ls
+bat general/epic_algorithms.pdf
+firefox general/epic_algorithms.pdf
+ls
+mv general/epic_algorithms.pdf ../"Chuyen Tin.pdf"
+ls
+bat sliding_window/lc_1052.c
+rm dp/ general/ path_finding/ sliding_window/ sorting/ string_finding/ -fr
+ls
+cd C-Plus-Plus/
+ls
+cd ..
+ls
+cd ..
+l
+ls
+mv `"Chuyen Tin.pdf"` "Chuyen Tin.pdf"
+ls
+chmod -x `Chuyen Tin.pdf`
+ls
+`./Competitive Programmer’s Handbook.pdf`
+chmod -x `Competitive Programmer’s Handbook.pdf`
+l
+ls
+pkill swayidle
+exit
+tgpt "What are the basic parts of merge sort"
+bat algorithms/C-Plus-Plus/sorting/bitonic_sort.cpp
+ls
+cd Downloads/
+mpv 2025-08-18T12_02_49Z.m4a
+rm 2025-08-18T12_02_49Z.m4a
+ls
+wl
+rm `.~lock.Key mini test lesson 4.docx#`
+ls
+ls -l
+ls -la
+ls .videos/
+exit
+bat algorithms/C-Plus-Plus/sorting/bead_sort.cpp
+cd algorithms/C-Plus-Plus/
+bat sorting/gnome_sort.cpp
+bat sorting/merge_insertion_sort.cpp
+bat sorting/comb_sort.cpp
+nvim sorting/comb_sort.cpp
+bat sorting/comb_sort.cpp
+ls
+ls doc/
+firefox doc/cppreference-doxygen-web.tag.xml
+nvim sorting/slow_sort.cpp
+ls
+ls operations_on_datastructures/
+ls scripts/
+nvim scripts/file_linter.py
+black 
+black --help
+blackd --help
+blackd 
+pip install blackd --break-system-package
+pip install black --break-system-package
+pip install black[d] --break-system-package
+bat sorting/heap_sort.cpp
+bat sorting/library_sort.cpp
+ls
+ls ciphers/
+bat ciphers/atbash_cipher.cpp
+ls
+cd ciphers/
+cmake CMakeLists.txt
+ls
+cd ..
+ls
+ls | bat
+cmake CMakeLists.txt
+make
+ls
+ls math/
+ls
+ls search/
+cd CMakeFiles/
+cmake
+make
+cmake Makefile.cmake
+ls
+cd ..
+ls
+cd sorting/
+ls
+cd ..
+ls
+cd ciphers/
+ls
+cmake CMakeLists.txt
+mAKE
+make
+ls
+bat base64_encoding.cpp
+ls
+cd ..
+ls
+rm CM*
+ls
+rm cmake*
+ls
+rm CPackConfig.cmake
+rm CPackSourceConfig.cmake
+rm Makefile
+ls
+ls -l
+l
+ls
+ls machine_learning/
+bat machine_learning/neural_network.cpp
+cd machine_learning/
+ls
+g++ neural_network.cpp -o neural_network -Ofast -DNDEBUG
+./neural_network
+l
+ls
+ls vector_ops.hpp
+chmod -x *.cpp
+ls
+bat vector_ops.hpp
+cd ..
+ls
+chmod -x .
+ls
+cd ..
+ls
+cd C-Plus-Plus/
+chmod +x C-Plus-Plus/
+cd C-Plus-Plus/
+ls
+nvim simple.c
+ls
+chmod +x simple.c
+./simple.c
+rm simple.c
+exit
+sh
+ls
+ls physics/
+ls others/
+bat others/easter.cpp
+bat others/palindrome_of_number.cpp
+bat others/spiral_print.cpp
+bat others/vector_important_functions.cpp
+ls
+ls doc/
+rm doc/ -fr
+ls hashing/
+bat hashing/sha1.cpp
+tgpt "Difference between SHA1 and SHA256 and md5? Answer concisely."
+tgpt "Define Cryptographic"
+bat ciphers/caesar_cipher.cpp
+sha256sum hello
+cat | sha256sum 
+sha256sum hello
+cat | sha1sum 
+ls
+ls bit_manipulation/
+nvim bit_manipulation/set_kth_bit.cpp
+ls
+cat | mass-format.sh
+cat | save -f mass-format.sh
+chmod +x mass-format.sh
+./mass-format.sh
+ls
+clang-format --help
+cat | save -f mass-format.sh
+./mass-format.sh
+nvim bit_manipulation/set_kth_bit.cpp
+clang-format bit_manipulation/set_kth_bit.cpp | wl-copy 
+nvim bit_manipulation/set_kth_bit.cpp
+clang-format bit_manipulation/set_kth_bit.cpp | bat
+clang-format bit_manipulation/set_kth_bit.cpp | wl-copy
+nvim bit_manipulation/set_kth_bit.cpp
+sudo pacman -Ss dos2
+sudo pacman -S dos2unix
+dos2unix bit_manipulation/set_kth_bit.cpp
+nvim bit_manipulation/set_kth_bit.cpp
+ls
+cd games/
+ls
+nvim   memory_game.cpp
+clang-format memory_game.cpp
+clang-format --help
+clang-format memory_game.cpp --style=Google
+cd ..
+ls
+nvim mass-format.sh
+ls
+nvim `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+clang-format --style=Google `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp` | wl-copy
+nvim `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+dos2unix  `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+nvim `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+clang-format --help
+clang-format --help | grep unix
+clang-format --help | grep dos
+exit
+clang-format --style=Google `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp` | wl-copy
+nvim `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+clang-format --style=Google `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp` | wl-copy
+nvim `Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/longest_increasing_subsequence_(nlogn).cpp`
+ls
+nvim code.c
+sudo pacman -Syu --noconfirm; flatpak update
+exit
+sudo pacman -S zig
+exit
+sudo pacman -S libexif
+sudo pacman -S ffmpegthumbnailer
+rm -fr ~/.cache/thumbnails/
+exit
+sudo pacman -S --noconfirm -uy 
+poweroff
+cd Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/
+find coin
+sh -ce "find . coin"
+sh -ce "find coin ."
+ls | find "coin"
+nvim coin_change.cpp 
+nvim coin_change_topdown.cpp
+dos2unix *
+dos2unix ..*
+dos2unix ../*
+l
+ls
+nvim 
+nvim coin_change_topdown.cpp
+clang-format --style=Google coin_change_topdown.cpp | wl-copy
+nvim coin_change_topdown.cpp
+clang-format --style=Google coin_change.cpp | wl-copy
+nvim coin_change.cpp
+cd
+nvim code.c
+gcc code.c -o code -O2
+nvim code.c
+gcc code.c -o code -O2
+nvim code.c
+gcc code.c -o code -O2
+lsblk
+exit
+ping google.com
+speedtest-cli
+ls
+speedtest
+sudo wifi-menu
+ls
+reboot
+exit
+cav a
+ls
+./autoSnake
+exit
+sudo pacman -S sfml
+sudo pacman -S ncurses
+cat | save -f tetris.cpp
+ls
+g++ -o tetris tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system
+g++ -o tetris tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system -DNDEBUG -Ofast
+g++ -o tetris tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system -DNDEBUG -O2
+g++ -o tetris tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system -DNDEBUG
+g++ -o tetris tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system
+nvim tetris.cpp
+clang-format --style=Google tetris.cpp | wl-copy
+nvim tetris.cpp
+ls
+exit
+ls
+g++ tetris.cpp -lsfml-graphics -lsfml-window -lsfml-system -o tetris
+cat | save -f tetris.cpp
+clang-format --style=Google tetris.cpp | wl-copy
+nvim tetris.cpp
+tail tetris.cpp
+g++ -lncurses tetris.cpp -o tetris 
+g++ -lncurses tetris.cpp -o tetris | wl-copy
+g++ -lncurses tetris.cpp -o tetris
+cat | save -f tetris.cpp
+g++ -lncurses tetris.cpp -o tetris 
+g++ -lncurses tetris.cpp -o tetris -DNDEBUG -O2
+./tetris
+pip install pygame --break-system-packages
+cat | save -f tetris.py
+ls
+exit
+python tetris.py
+ls
+./tetris
+cat | save -f tetris.py
+python tetris.py
+nvim tetris.py +138
+python tetris.py
+nvim tetris.py +292
+python tetris.py
+nvim tetris.py +286
+python tetris.py
+ls /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h
+bat /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h
+nvim code.c
+bat /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+bat /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint-gcc.h
+nvim tetris.cpp
+ls /usr/include/ncurses.h
+bat /usr/include/ncurses.h
+bat /usr/include/gc_cpp.h
+bat /usr/include/c++/15.2.1/vector
+open /usr/include/c++/15.2.1/vector | wl-copy
+nvim /usr/include/c++/15.2.1/bits/requires_hosted.h
+nvim /usr/include/c++/15.2.1/vector
+cd /usr/include/c++/15.2.1/bits
+exit
+clang-format --style=Google stl_algobase.h
+clang-format --style=Google stl_algobase.h | wl-copy
+sudo nvim stl_algobase.h
+ls
+nvim stl_vector.h
+nvim stl_algo.h
+nvim stl_algobase.h
+sudo nvim stl_algobase.h
+nvim stl_algobase.h
+g++
+ls
+nvim stl_algobase.h
+rg sort
+nvim algorithmfwd.h
+clang-format --style=Google stl_algo.h
+clang-format --style=Google stl_algo.h | wl-copy
+sudo su
+nvim stl_algo.h
+sudo su
+clang-format stl_algo.h | wl-copy 
+sudo su
+nvim stl_algo.h
+sudo su
+exit
+swaybg -i Pictures/Wallpapers/mike.jpg
+LSBLK
+sblk
+cd Downloads/
+ls
+tar xzcf `TETR.IO Setup.tar.gz`
+tar xvzf `TETR.IO Setup.tar.gz`
+ls
+rm `Bản cam kết ATGT năm học 2025-2026- mới.docx` `Cam kết thực hiện nôi qui nhà trường năm học 2025-2026.docx`
+rm `TETR.IO Setup.tar.gz`
+cd tetrio-desktop-9.0.0/
+ls
+./TETR.IO
+echo $env.XDG_SESSION
+echo $env.XDG_SESSION_TYPE
+echo $env.DISPLAY
+bash
+exit
+ls
+python tetris.py
+./tetris
+ls
+exit
+ls
+cd tetrio-desktop-9.0.0/
+ls
+cd Downloads/
+cd tetrio-desktop-9.0.0/
+ls
+./TETR.IO
+Downloads/tetrio-desktop-9.0.0/TETR.IO --ozone-platform=wayland --enable-features=UseOzonePlatform<\n>
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code
+nvim code.cpp
+g
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+55
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+g++ code.cpp -o code -O2
+nvim
+nvim code.cpp
+g++ code.cpp -o code -O2
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -g
+gdb code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+bat code.cpp
+exit
+ping google.com
+exit
+gcc -v
+gcc --version
+g++ -v
+g++ --version
+pkill swayidle
+exit
+nvim code.cpp
+ls
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+nvim Documents/codes/help/algorithms/C-Plus-Plus/backtracking/n_queens.cpp
+nvim Documents/codes/help/algorithms/C-Plus-Plus/backtracking/nqueen_print_all_solutions.cpp
+ls
+nvim code.cpp
+g++ code.cpp
+fastfetch
+exit
+bat Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/kadane.cpp
+bat Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/kadane2.cpp
+vim code.cpp
+ls
+rm .vimrc
+rm .vim/ -fr
+ls
+vim code.cpp
+nvim .vimrc
+vim
+vim code.cpp
+nvim .vimrc
+vim code.cpp
+nvim .vimrc
+vim code.cpp
+sh
+nvim .vimrc
+vim .vimrc
+vim code.cpp
+nvim .vim/plugged/vim-autoclose/plugin/AutoClose.vim
+vim code.cpp
+mkdir .vim/colors
+curl -O https://raw.githubusercontent.com/nanotech/jellybeans.vim/master/colors/jellybeans.vim
+ls
+mv jellybeans.vim .vim/colors/
+mv Downloads/solarized.vim .vim/colors/
+cd Downloads/
+ls
+7z x gruvbox-2.0.0.zip -ogruv
+cd gruv/
+ls
+cd gruvbox-2.0.0/
+ls
+ls colors/
+mv colors/gruvbox.vim ~/.vim/colors/
+cd ..
+rm gruv -fr
+cd ..
+vim code.cpp
+vim .vimrc
+vim code.cpp
+nvim code.cpp
+tgpt -m
+ls
+exit
+bat Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/0_1_knapsack.cpp
+exi
+exit
+bat code.cpp
+ls
+nvim .config/niri/config.kdl
+exit
+eixt
+exit 
+nvim code.cpp
+exit
+poweroff
+cd
+ls
+Downloads/tetrio-desktop-9.0.0/TETR.IO --ozone-platform=wayland --enable-features=UseOzonePlatform<\n>
+exit
+nvim code.cpp
+nvim Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/coin_change.cpp
+nvim Documents/codes/help/algorithms/C-Plus-Plus/dynamic_programming/coin_change_topdown.cpp
+exit
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+sudo wifi-menu
+exit
+speedtest
+speedtest-cli 
+ping google.com
+sudo wifi-menu
+exit
+poweroff
+sudo wifi-menu
+ls
+cd /home/dat/Documents/codes/exercises/HSG_BANG A/TIN_2021-2022/CHINH THUC
+cd /home/dat/Documents/codes/exercises/HSG_BANG\ A/TIN_2021-2022/CHINH\ THUC
+cd `Documents/codes/exercises/HSG_BANG A/`
+ls
+tree
+ls
+cd `TIN 2024-2025/`
+ls
+exit
+sudo pacman -S mousepad
+exit
+su
+exit
+echo $env.PATH
+which clang-format 
+cd `Documents/codes/exercises/HSG_BANG A/TIN_2021-2022/CHINH THUC/Bai thi sinh/#SOL/`
+ls
+dos2unix TYPING.cpp
+nvim TYPING.cpp
+clang-format TYPING.cpp 
+clang-format TYPING.cpp | wl-copy
+nvim TYPING.cpp
+g++ TYPING.cpp -o typing -O2
+nvim TYPING.cpp
+ls
+nvim TYPING.cpp
+g++ TYPING.cpp -o typing -O2
+nvim TYPING.cpp
+ls
+exit
+cd /home/dat/Documents/codes/exercises/HSG_BANG A/TIN 2024-2025/Contestants/#JURY
+cd `/home/dat/Documents/codes/exercises/HSG_BANG A/TIN 2024-2025/`
+ls
+ls Contest.result
+rm Contest.result
+ls
+ls `CODE NGÀY 2/`
+rm ContestantDirectories.txt
+cd Contestants/
+ls
+cd `#JURY/`
+ls
+clang-format --style=Google squares.cpp | wl-copy
+nvim squares.cpp
+ls
+clang-format --style=Google hexangle.cpp | wl-copy 
+nvim hexangle.cpp
+ls
+cd ..
+ls
+cd `SUB 1/`
+ls
+nvim squares.cpp
+clang-format --style=Google squares.cpp | wl-copy
+nvim squares.cpp
+cd ..
+ls
+cd ..
+ls
+tree `CODE NGÀY 2/`
+nvim `CODE NGÀY 2/TIN01/HEXANGLE.cpp`
+rm `CODE NGÀY 2/`
+rm `CODE NGÀY 2/` -fr
+ls
+mv Contestants/ Solutions
+cd ..
+ls
+exit
+sh
+cd /home/dat/Documents/codes/exercises/`HSG_BANG A/2122/`CHINH THUC/`Solutions/#TRAU/`
+cd `/home/dat/Documents/codes/exercises/HSG_BANG A/2122/CHINH THUC/Solutions/#TRAU/`
+clang-format --style=Google TYPING.cpp | wl-copy 
+nvim TYPING.cpp
+exit
+sudo wifi-menu
+exit
+Downloads/tetrio-desktop-9.0.0/TETR.IO --ozone-platform=wayland --enable-features=UseOzonePlatform<\n>
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g+
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+open code.cpp | wl-copy
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+ls
+exit
+nvim
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+5
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+5
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2; ./code
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+open code.cpp | wl-copy
+nvim code.cpp
+nvim code.py
+exit
+ls
+nvim code.cpp
+adb devices
+cd Downloads/
+s
+ls
+adb install-multiple `com.vanced.android.apps.youtube.music_4.65.50-46550240_minAPI21(arm64-v8a,armeabi-v7a,x86)(nodpi)_apkmirror.com.apk`
+ls
+nvim math.pdf
+ls
+rm *.apk
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+poweroff
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG; ./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG; ./code
+nvim code.cpp
+exit
+nvim code.c
+ls
+cd Documents/codes/
+ls
+ls gfg
+ls geeksforgeeks/
+mv gfg/Sum_of_First_N_Natural_Numbers.cpp geeksforgeeks/
+rm gfg -fr
+ls
+ls proj/
+nvim proj/c/word_counter.c
+nvim proj/cpp/quadratic_eq.cpp
+ls
+mv proj/ cli-apps
+ls web/
+mv web/ webdev
+ls temp/
+nvim temp/zero_day.c
+nvim temp/print.c
+ls
+ls 300/
+ls
+ls chatgpt/
+rm chatgpt/ -fr
+ls huggingface/
+rm huggingface/ -fr
+ls
+mv exercises/ contests
+;s
+mv contests/ paperbased
+ls
+ls coddy/
+rm coddy/css.zip 
+ls
+ls lqdoj/
+btop
+nvim code.cpp
+clang-format --style=Google code.cpp | wl-copy
+nvim code.cpp
+nvim code.cppppp
+nvim code.cpp
+ls
+rm code.cpp
+cd ..
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+exit
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+htop
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+exit
+pkill swayidle
+exit
+ls
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -g
+gdb code
+nvim code.cpp
+g++ code.cpp -o code -g
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -g
+gdb code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+ls
+ping google.com
+eit
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+open
+open code.cpp | wl-copy
+nvim code.cpp
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+ls
+nvim code.cpp
+sudo pacman -Syu --noconfirm; flatpak update; poweroff
+yt-dlp -x https://www.youtube.com/watch?v=_Q8Ih2SW-TE
+mpv 'Let’s work slow and easy [_Q8Ih2SW-TE].opus'
+mpv 'Let’s work slow and easy [_Q8Ih2SW-TE].opus' --loop
+mpv --loop
+mpv --help
+mpv --list-options
+mpv --list-options | rg loop
+exit
+htop
+exit
+ping google.com
+exit
+mpv --loop 'Let’s work slow and easy [_Q8Ih2SW-TE].opus'
+exit
+rm Videos/record_20250826_171714.mp4
+exit
+l
+ls
+mpv --loop 'Let’s work slow and easy [_Q8Ih2SW-TE].opus'
+exit
+ls
+cd Downloads/
+ls
+rpm
+pacman --import
+pacman --key
+pacman --help
+sudo pacman -U --noconfirm zoom_x86_64.pkg.tar.xz
+exit
+zoom
+zoom --help
+zoom -v
+pkill zoom
+pgrep zoom
+ls
+sudo pacman -S cinnamon --noconfirm
+exit
+ping google.com
+exit
+htop
+free -lwth --si -s 0.75
+exit
+sudo pacman -S touchegg
+sudo pacman -S flameshot --noconfirm
+sudo pacman -S --noconfirm gnome-screenshot
+exit
+lsblk
+ls
+fsdisk
+fdisk
+fsck
+ls
+lsblk
+sudo mount /dev/sdb5 /mnt/sdb5 --mkdir
+ls
+cd /mnt/sdb5/
+ls
+tree
+exit
+lsblk
+sudo umount /dev/sdc5
+sudo umount /dev/sdb5
+sudo umount /mnt/sdb5
+lsblk
+exit
+sudo nvim /etc/ly/config.ini
+ls
+exit
+lsblk
+exit
+lsblk
+sudo pacman -S onnxruntime --noconfirm
+lsusb
+dmesg -w
+lsblk
+lsusb
+lsblk
+lsusb
+lsblk
+lsnlk
+lsblk
+lsusb
+lsblk
+smartctl
+sudo modprobe -r uas
+sudo modprobe -r usb_storage
+sudo modprobe usb_storage quirks=0x0080:0xa001:u
+sudo nvim /etc/modprobe.d/disable-uas.conf
+sudo mkinitcpio -P
+sudo dmesg -w
+sudo pacman -S ddrescue
+ddrescue 
+lsblk
+sudo ddrescue /dev/sdb
+sudo ddrescue --help
+sudo gnu-ddrescue --help
+sudo pacman -S gnu-ddrescue
+lsblk
+sudo ddrescue -f -n /dev/sdb /mnt/backup/pianousb.img /mnt/backup/pianousb.log<\n>
+sudo mkdir /mnt/backup
+lsblk
+exit
+sudo ddrescue -f -n /dev/sdb /mnt/backup/pianousb.img /mnt/backup/pianousb.log<\n>
+ls
+cd /mnt/backup/
+ls
+mkdir pianousb
+sudo mkdir pianousb
+sudo mount pianousb.img pianousb/
+sudo pacman -S losetup
+sudo losetup -fP pianousb.img
+lslbk
+lsblk
+sudo mount /dev/loop0p1 /mnt/loop0p1 --mkdir
+cd ../loop0p1/
+ls
+ls -la
+cd ..
+sudo mount /dev/loop0p2 /mnt/loop0p2 --mkdir
+cd loop0p2/
+ls
+ls ventoy/
+ls
+ls tool/
+ls EFI/
+ls
+cd ..
+sudo umount -R
+sudo umount -R /dev/loop0
+sudo umount -R /dev/loop0p1
+sudo umount /dev/loop0p1
+sudo umount /dev/loop0p2
+lsblk
+ls
+fastfetch
+exit
+lsblk
+lsusb
+exit
+fastfetch
+sudo ddrescue -f -n /dev/sdb4 /mnt/backup/momdisk.img /mnt/backup/momdisk
+lsblk
+exit
+sudo losetup  -aa
+sudo losetup  -a
+sudo losetup -d /dev/loop0
+lsblk
+exit
+sudo ddrescue -d -r3 /dev/sdb4 /mnt/backup/momdisk.img /mnt/backup/momdisk
+ls
+ls backup/
+ls sdb5/
+lsblk
+ls
+cd back
+cd backup/
+ls
+mkdir momdisk
+ls momdisk
+mkdir mom_disk
+sudo mkdir mom_disk
+sudo mount -o ro momdisk.img mom_disk/
+sudo losetup -fP momdisk.img
+lsblk
+sudo mount /dev/loop0 mom_disk/
+lsblk
+fastfetch
+exit
+file momdisk.img
+sudo dd if=momdisk.img bs=512 count=1 | hexdump -C | sed -n '1,12p'<\n>
+ls
+sudo fdisk -l momdisk.img
+sudo kpartx -av momdisk.img
+sudo pacman -S kpartx
+sudo pacman -S kpart
+sudo pacman -Ss kpart
+sudo pacman -Ss kpartx
+sudo pacman -S multipath-cools
+sudo pacman -S multipath-tools
+less partition.log<\n>
+ls
+less pianousb.log
+less momdisk.bak
+sudo kpartx -av momdisk.img
+lsblk
+sudo ddrescue -d -r3 /dev/sdb4 /mnt/backup/momdisk.img /mnt/backup/momdisk
+lsblk
+less momdisk
+mv momdisk momdisk.log
+sudo mv momdisk momdisk.log
+lsblk
+ls
+sudo mount /dev/loop0 mom_disk/
+sudo mount /dev/loop0
+lsblk
+sudo losetup -a
+sudo losetup -a /dev/loop0
+sudo losetup -d /dev/loop0
+ls
+lsblk
+sudo ddrescue -d -r3 /dev/sdb4 /mnt/backup/momdisk.img /mnt/backup/momdisk
+sudo pacman -S testdisk
+sudo pacman -S photorec
+sudo pacman -Ss photorec
+sudo testdisk momdisk.img
+sudo photorec momdisk.img<\n>
+ls
+cd recup_dir.1/
+ls
+imv t10409856.jpg
+imv t6527328.jpg
+cd ..
+ls
+lsblk
+exit
+lsbl
+lsblk
+ls
+lsblk
+sudo mount /dev/sdb /mnt/sdb --mkdir
+lsblk
+sudo ddrescue -f -n /dev/sdb /mnt/backup/baredisk.img /mnt/backup/baredisk.log<\n>
+ls
+cd /mnt/backup/
+ls
+rm bare*
+sudo rm bare*
+ls
+lsblk
+sudo mount /dev/sdb4 /mnt/sdb4 --mkdir
+lsblk
+cd /mnt/sdb4/
+ls
+du -sh .
+du . 0sh
+du . -sh
+lsblk
+du . 
+exit
+ls
+lsblk
+ls Downloads/
+ls Downloads/mom/
+lsusb
+lsblk
+cd Downloads/mom/
+ls
+ls `Cá nhân/`
+exit
+ls /mnt/sdb4/mom
+ls `/mnt/sdb4/CỦA VỢ/mom/<\n><\n>`
+ls <\n>/mnt/sdb4/CỦA VỢ/mom/<\n><\n>
+ls `/mnt/sdb4/CỦA VỢ/mom/`
+ls `/mnt/sdb4/CỦA VỢ/`
+sudo rsync 
+sudo pacman -S rsync
+sudo pacman -S rsync --noconfirm
+lsblk
+exit
+cp mom -rv ~/Downloads/
+lsblk
+exit
+ls Downloads/mom/
+ls `Downloads/mom/Cá nhân/`
+lsblk
+exit
+exit
+ls
+lsblk
+du -sh ~/Downloads/mom/
+lsblk
+du
+du -s ~/Downloads/mom/
+du -m ~/Downloads/mom/
+du -h ~/Downloads/mom/
+du --l ~/Downloads/mom/
+du -l ~/Downloads/mom/
+du ~/Downloads/mom/
+lsblk
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/mom/` ~/Downloads/mom/
+lsblk
+awk
+sed
+ls
+lsblk
+sudo mount /dev/sdb4 /mnt/sdb4 --mkdir
+sudo umount -R /mnt/sdb4
+lsblk
+sudo umount -R /mnt/sdc4
+sudo umount -R /dev/sdc4
+sudo umount /dev/sdc4
+sudo mount /dev/sdc4 /mnt/sdb4 --mkdir
+lsblk
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/mom/` ~/Downloads/mom/
+sudo umount /dev/sdb4
+sudo umount /dev/sdc4
+lsblk
+exit
+sudo mount /dev/sdd4 /mnt/sdb4 --mkdir
+lsblk
+sudo umount /mnt/sdb4
+cd ..
+sudo umount /mnt/sdb4
+sudo mount /dev/sdd4 /mnt/sdb4 --mkdir
+pkill swayidle
+exit
+lsblk
+ls
+ls YOGA/
+ls
+imv-dir 0f7a4f09e71d4943100c.jpg
+ls
+imv-dir 0f7a4f09e71d4943100c.jpg
+ls `Cá nhân/`
+ls
+ls `Cá nhân/`
+ls YOGA/
+ls `YOGA/Mẫu ảnh/`
+ls
+lsblk
+sudo umount /mnt/sdb4
+sudo umount /mnt/sdb5/4
+sudo umount /mnt/sdb5/
+sudo umount /mnt/sdb4/
+sudo umount /mnt/loop0p1/
+lsblk
+lsb
+lsblk
+sudo mount /dev/sdb2 /mnt/sdb2 --mkdir
+ls
+cd sdb2/
+ls
+cd Users/Dat/
+ls
+cd ..
+cd PC/
+cd Desktop/
+ls
+cd ..
+ls
+cd Desktop/
+nvim `HLV YOGA.lnk`
+ls
+cd ..
+ls
+ls Downloads/
+ls Documents/
+cd ..
+ls
+cd ..
+ls
+nvim `Users/PC/Desktop/Roblox Player.lnk`
+bat `Users/PC/Desktop/HLV YOGA.lnk`
+echo `Users/PC/Desktop/HLV YOGA.lnk`
+vim `Users/PC/Desktop/HLV YOGA.lnk`
+cd ..
+sudo umount /dev/sdb2
+ls
+lsblk
+sudo mount /dev/sdb3 /mnt/sdb3 --mkdir
+ls sdb3
+sudo umount /dev/sdb3
+sudo mount /dev/sdb4 /mnt/sdb4 --mkdir
+cd sdb4
+ls
+ls mom/
+ls
+ls mom
+cd mom/
+ls
+exit
+sudo rsync -avh --progress `/mnt/sdb4/mom/` ~/Downloads/mom/
+lsblk
+sudo umount /dev/sdb2
+sudo umount /dev/sdc2
+sudo mount /dev/sdc4 /mnt/sdb4 --mkdir
+sudo rsync -avh --progress `/mnt/sdb4/mom/` ~/Downloads/mom/
+lsblk
+ls ~/Downloads/mom/
+ls `~/Downloads/mom/HLV YOGA/`
+lsblk
+ls `~/Downloads/mom/HLV YOGA/`
+lsblk
+sudo rsync -avh --progress `/mnt/sdb4/mom/HLV Yoga` ~/Downloads/mom/
+lsblk
+exit
+lsblk
+sudo mount /dev/sdd5 /mnt/sdd5 --mkdir
+cd /mnt/sdd5/
+ls
+ls `$RECYCLE.BIN/`
+rm `$RECYCLE.BIN/` -fr
+ls
+ls 100_2001/
+ls Thanh_22-3-2016/
+ls
+ls `bc nam 2011/`
+du . 
+ls
+cd ..
+sudo umount /dev/sdd
+sudo umount /dev/sdd5
+lsblk
+sudo dmesg -w
+lsblk
+sudo mount /dev/sdd3 /mnt/sdd3 --mkdir
+cd /mnt/sdd3/
+ls
+ls `System Volume Information/`
+cd ..
+ls
+sudo mount /dev/sdd2
+sudo mount /dev/sdd2 /mnt/sdd2 --mkdir
+cd sdd2/
+ls
+ls `Program Files/`
+ls Users/Admin/Desktop/
+bat Users/Admin/Downloads/desktop.ini
+bat Users/Admin/Pictures/vy.htm
+cd Users/Admin/Pictures/
+firefox vy.htm
+lsblk
+ls
+firefox 1.png
+imv hi.jpg
+cd ..
+ls
+ls 
+ls
+ls Music/
+ls Videos/
+ls
+ls Downloads/
+ls `Documents/My Pictures`
+cd Documents/
+ls
+cd //mnt
+sudo umount /dev/sdd5
+sudo umount /dev/sdd2
+sudo umount /dev/sdd3
+lsblk
+ls
+cd ..
+ls
+cd ..
+l
+exit
+lsblk
+lsusb
+lsblk
+poweroff
+lsblk
+lsblk
+sudo mount /dev/sdb /mnt/sdb --mkdir
+lsblk
+sudo mount /dev/sdb /mnt/sdb --mkdir
+lsblk
+sudo dmesg -w
+lsblk
+ls
+lsblk
+sudo fdisk -l
+du Downloads/mom/
+lsblk
+sudo hdparm -N /dev/sdb<\n>
+echo 1 | sudo tee /sys/block/sdb/device/rescan<\n>
+exit
+sudo pacman -S hdparm
+sudo hdparm -N /dev/sdb<\n>
+lsblk
+testdisk
+ls
+lsblk
+ls
+lsblk
+sudo modprobe -r uas
+sudo dmesg -w
+exit
+sudo modprobe -r uas usb_storage 
+sudo modprobe -r usb_storage 
+sudo modprobe usb_storage quirks=0x0080:0xa001:u
+lsblk
+sudo mount /dev/sd4 /mnt/sd4 --mkdir
+sudo mount /dev/sd4 /mnt/sdb4 --mkdir
+sudo mount /dev/sdb4 /mnt/sdb4 --mkdir
+sudo rsync -avh --progress `/mnt/sdb4/mom/HLV Yoga` ~/Downloads/mom/
+sudo rsync -avh --progress `/mnt/sdb4/mom/HLV YOGA/` ~/Downloads/mom/
+lsblk
+ls `Downloads/mom/HLV YOGA/`
+ls Downloads/mom
+lsblk
+cd `/mnt/sdb4/mom/HLV YOGA/`
+ls
+cp -rv * `~/Downloads/mom/HLV YOGA/`
+cd `Downloads/mom/HLV YOGA/`
+ls
+cd ..
+ls
+rm audio/ bg `Chứng từ TNCN 2024.pdf` -fr
+ls
+sudo rsync -avh --progress `/mnt/sdb4/mom/` ~/Downloads/mom/
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/Ghi chep HLV.xlsx`<\n> ~/Downloads/mom/
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/Ghi chep HLV.xlsx` ~/Downloads/mom/
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/mom/` ~/Downloads/mom/
+ls
+cd ..
+cd .
+cd ..
+sudo umount /dev/sdb4
+lsblk
+sudo pacman -Ss sway
+swaync
+pgrep mako
+exit
+ls
+sudo mount /dev/sdb4 /mnt/sdb4 --mkdir
+cd sdb4
+ls
+sudo pacman -Rns mako
+nvim .config/niri/config.kdl
+sh -ce "swaync"
+pgrep dunst
+pgrep mako
+pkill mako
+sh -ce "swaync"
+sh -ce "swaync&"
+exit
+exit
+sudo dmesg -w
+exit
+sudo umount /dev/sdb4
+cd 
+sudo umount /dev/sdb4
+ls
+sudo fdisk -l
+lsblk
+cd Downloads/mom/
+ls
+du .
+lsblk
+sync
+ls
+lsblk -f
+lsblk
+sudo fdisk -l
+sudo wipefs -a /dev/sdb<\n>
+lsblk
+sudo fdisk -l
+sudo fdisk /dev/sdb
+sudo fdisk -l
+sudo mkfs.ntfs -f -L Samsung_500G /dev/sdb1
+lsblk
+sudo fdisk -l
+sudo fdisk /dev/sdb<\n>
+sudo fdisk -l
+ls
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 --mkdir
+ls
+cd /mnt/sdb1/
+ls
+sudo mv -v ~/Downloads/mom/ .
+ls
+du mom
+ls
+cd ..
+sudo umount /dev/sdb1
+sync
+sudo umount /dev/sdb1
+lsblk
+ls ~/Downloads/780eff23-241f-4063-8927-86f4bbf9f38f.png
+ls ~/Downloads/
+cd ~/Downloads/
+ls
+rm systemrescue-12.01-amd64.iso package-signing-key-6-3-10.pub gruvbox-2.0.0.zip Umamusume/ `KEY UNIT 4 P1.docx` 780eff23-241f-4063-8927-86f4bbf9f38f.png `Gradient Strides.jpg` grade12roadmap.pdf `zoom bg.png` zoom_x86_64.pkg.tar.xz -fr
+firefox math.pdf
+l
+ls
+imv e2ad1c12-fcab-4f16-9d95-2aef8d786e1b.png
+rm e2ad1c12-fcab-4f16-9d95-2aef8d786e1b.png
+ls
+cd ..
+ls
+fastfetch
+ls
+sudo mount /dev/sdb1 /mnt/sdb1 --mkdir
+mkdir Downloads/mom_yoga_kit
+sudo rsync -avh --progress `/mnt/sdb1/mom/HLV YOGA/` Downloads/mom_yoga_kit/
+l
+sync
+sync --help
+sudo umount /dev/sdb1
+ls
+exit
+mpv --loop 'Let’s work slow and easy [_Q8Ih2SW-TE].opus'
+exit
+free -lwth --si -s 0.75
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim 
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim 
+nvim c
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+open code.cpp | wl-copy
+ls
+exit
+cd Downloads/
+ls
+rm `ChatGPT Image Aug 29, 2025, 09_14_22 AM.png`
+mpv 539132477_24995403493377884_3587521957998943905_n.mp4
+vlc 539132477_24995403493377884_3587521957998943905_n.mp4
+sudo pacman -S libvlc
+sudo pacman -S h264
+sudo pacman -Ss h264
+sudo pacman -S vlc-plugin -x264
+sudo pacman -S vlc-plugin-x264
+vlc 539132477_24995403493377884_3587521957998943905_n.mp4
+mpv 539132477_24995403493377884_3587521957998943905_n.mp4
+vlc 539132477_24995403493377884_3587521957998943905_n.mp4
+sudo pacman -S x264
+vlc 539132477_24995403493377884_3587521957998943905_n.mp4
+mpv 5
+mpv 539132477_24995403493377884_3587521957998943905_n.mp4
+ls
+rm 539132477_24995403493377884_3587521957998943905_n.mp4
+ls
+cd ..
+ls
+mv 'Let’s work slow and easy [_Q8Ih2SW-TE].opus' Downloads/
+cd Downloads/
+ls
+exit
+nano reports.txt
+nvim reports.txt
+exit
+sudo pacman -Syu --noconfirm; flatpak update
+exit
+poweroff
+free -lwth --si -s 0.75
+sudo pacman -Syu --noconfirm
+Xwayland
+xkbcomp 
+xwayland-satellite 
+spotify 
+Xwayland spotify
+spotify | Xwayland 
+spotify | xwayland-satellite 
+which Xwayland 
+sudo pacman -S xorg-xeyes
+xeyes
+flatpak override --user --env=--ozone-platform=wayland com.spotify.Client<\n>
+flatpak list
+exit
+xprop 
+ps -e | grep Xwayland<\n>
+sh -ce "ps -e | grep Xwayland<\n>"
+exit
+cat /proc/<PID>/environ | tr '\0' '\n' | grep -E 'WAYLAND|DISPLAY'<\n>
+preg spotify
+prep spotify
+pgrep spotify
+cat /proc/3164//environ | tr '\0' '\n' | grep -E 'WAYLAND|DISPLAY'<\n>
+cat /proc/3164//environ | tr '\0' '\n'
+exit
+spotify --ozone-platform=wayland --enable-features=WaylandWindowDecorations<\n>
+vim
+vim reports.txt
+vim
+vim code.
+vim code.cpp
+lw
+ls
+vim .vimrc
+vim 
+vim .vimrc
+vim +PlugUpdate
+vim code.cpp
+vim .vimrc
+vim code.cpp
+vim code.py
+vim .vimrc
+vim code.cpp
+vim .vimrc
+vim code.cpp
+vim .vimrc
+vim code.cpp
+sudo pacman -S clang-tools-extra
+sudo pacman -S clang-tools-extra --needed
+exit
+ping google.com
+sudo wifi-menu
+ping google.com
+exit
+nvim .config/niri/config.kdl
+ls
+exit
+ls
+vim reports.txt
+nvim reports.txt
+exit
+mousepad reports.txt
+ls
+exit
+lsbk
+lsblk
+ls
+lsblk
+ls
+cd Documents/codes/help
+s
+ls
+cd algorithms/
+ls
+cd ..
+ls
+cd `paperbased/HSG_BANG A/`
+ls
+cd 2122/
+ls
+cd `CHINH THUC/`
+ls
+firefox `Tin hoc 2021 (chinh thuc).pdf`
+libreoffice `Huong dan thuat toan.docx`
+exit
+cd -
+ls
+cd `Documents/codes/paperbased/HSG_BANG A/`
+cd `2122/CHINH THUC/`
+ls
+cd Solutions/
+ls
+ls `#SUB1/`
+vim `#SUB1/TYPING.cpp`<\n>
+cd ..
+cd `DU BI/`
+ls
+firefox `Tin hoc 2021 (du bi).pdf`
+ls
+nvim .config/niri/config.kdl
+exit
+speedtest-cli 
+speedtest
+fastfetch
+sudo pacman -Syu --noconfirm
+exit
+lsblk
+exit
+ping google.com
+sudo wifi-menu
+exit
+nvim .config/niri/config.kdl
+exit
+pkill firefox
+eit
+exit
+ping nhentai.net
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 --mkdir
+lsblk
+exit
+lsusb
+sudo fdisk -l
+ntfs-3g 
+ntfs-3g /mnt/sdb1
+lsblk
+ntfs-3g /dev/sdb1 /mnt/sdb1
+sudo ntfs-3g /dev/sdb1 /mnt/sdb1
+sudo mount -t ntfs-3g /dev/sdb1 /mnt/sdb1
+sudo mount -t ntfs-3g -o ro /dev/sdb1 /mnt/sdb1<\n>
+lsblk
+sudo mount -o ro /dev/sdb1 /mnt/sdb1
+sudo mount -t ntfs-3g -o ro /dev/sdb1 /mnt/sdb1
+sudo ddrescue -f -r3 /dev/sdb1 ~/sdb1_backup.img ~/sdb1_backup.log
+ls
+testdisk 
+lsblk
+ls
+sudo mount /dev/sdb1
+sudo mount /dev/sdb1 /mnt/sdb1 --mkdir
+exit
+sudo ddrescue -f -r3 /dev/sdb1 ~/sdb1_backup.img ~/sdb1_backup.log
+ls
+reboot
+fastfetch
+lsblk
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+sudo testdisk /dev/sdb1
+ls
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+sudo umount /dev/sdb1
+exit
+virt-manager 
+exit
+tgpt "How do I use virt-manager in arch linux"
+sudo systemctl start libvirtd<\n>
+sudo systemctl enable libvirtd<\n>
+sudo usermod -aG libvirt dat
+exit
+sudo dmesg -w
+exit
+exit
+ls Downloads/
+ls
+sudo ddrescue -f -r3 /dev/sdb1 ~/sdb1_backup.img ~/sdb1_backup.log
+ls
+testdisk sdb1_backup.img
+sudo losetup sdb1_backup.img
+ls
+sudo losetup -a sdb1_backup.img
+lsblk
+sudo losetup -fP sdb1_backup.img
+lsblk
+sudo mount /dev/loop0
+sudo mount /dev/loop0 /mnt/loop0 --mkdir
+ls
+sudo losetup -d /dev/loop0
+ls
+lsblk
+ls
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+lsblk
+sudo dmesg -w
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+exit
+ls
+exit
+lsblk
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+sudo mount /dev/sdb /mnt/sdb -o ro
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+sudo ntfs-3g /dev/sdb1 /mnt/sdb1
+ls
+sudo dmesg -w
+exit
+virsh
+# attach /dev/sdb as /dev/vdc inside the VM named 'win10'<\n>sudo virsh attach-disk win10 /dev/sdb vdc --persistent
+virt-manager 
+sudo virsh attach-disk win10 /dev/sdb vdc --persistent
+exit
+lsblk
+sudo umount /dev/sdb1
+sudo umount /dev/sdb
+lsblk -o NAME,MODEL,SIZE,FSTYPE,MOUNTPOINT /dev/sdb
+sudo umount /dev/sdb* 2>/dev/null || true
+sudo umount /dev/sdb* 2>/dev/null or true
+sudo lsof /dev/sdb* or true
+sh -ce "sudo lsof /dev/sdb* || true"
+bash
+exit
+lsblk
+ls
+sudo pacman -S smartmontools<\n>sudo smartctl -H /dev/sdb        # quick health<\n>sudo smartctl -a /dev/sdb        # full report<\n>
+sudo smartctl -H /dev/sdb
+sudo smartctl -a /dev/sdb
+sudo smartctl -t /dev/sdb
+sudo smartctl -t
+sudo smartctl -a /dev/sdb
+sudo smartctl -x /dev/sdb
+sudo mount -t ntfs-3g -o ro /dev/sdb1 /mnt/sdb1
+sudo pacman -S testdisk<\n>sudo testdisk /dev/sdb<\n>
+sudo testdisk /dev/sdb
+ls
+cd Downloads/
+mkdir mom_recover
+exit
+lsblk
+sudo mount /dev/sdb4 /mnt/sdb4
+cd Downloads/
+mkdir mom_recover
+exit
+sudo pacman -Syu --noconfirm; flatpak update
+sudo rsync -avh --progress /mnt/sdb4/mom/ ~/Downloads/
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/mom/` ~/Downloads/mom_recover/
+lsblk
+sudo umount /dev/sdb4 
+exit
+ls
+exit
+ls
+ls mom_yoga_kit/
+cd Downloads/
+ls
+ls mom_recover/
+ls
+mkdir mom_recover2
+ls
+mv CV.pdf `Cá nhân/` `Danh gia GIC/` `HLV YOGA/` `Kính chúc Quý HV và gia đình kỳ nghỉ lễ vui vẻ, đầm ấm.jpg` `mẫu 08.MST.doc` `Mẫu hợp đồng thuê nhà ở.docx` `TNCN 2023.jpg` YOGA/ b939cc4a645eca00934f.jpg cbf1c3886b9cc5c29c8d.jpg mom_recover2/
+ls
+imv-dir 0d3a7e49d65d7803214c.jpg
+mv *.jpg mom_recover2/
+ls
+rm beautiful-segment.docx
+cd ..
+mkdir Games
+mv Downloads/osu.AppImage Downloads/tetrio-desktop-9.0.0/ Games/
+ls Downloads/
+mv Downloads/string-exercises/ Documents/codes/paperbased/
+mv Documents/codes/paperbased/ Documents/codes/generic
+ls
+rm tetris*
+ls
+rm snake*
+ls
+rm SnakeXenziaWeb/ -fr
+ls
+rm sdb1_backup.*
+ls
+rm reports.txt
+ls mom_yoga_kit/
+rm photorec.se*
+ls
+rm autoSnake code*
+ls
+ls llm/
+mv llm/ Downloads/
+ls
+rm learnrust.rs
+rm hashmap.pas
+RM input-output.rs
+rm input-output.rs
+rm fastio.cpp
+ls
+mv sq.mp3 Downloads/
+ls
+cd mom_yoga_kit/
+ls
+cd ..
+cd Downloads/
+l
+ls
+mkdir mom
+mv mom_recover/* mom -v
+ls
+rm `Đối xứng hàm bậc ba - AB=BC.ggb`
+ls
+mv `Vật Lí 10.pdf` physics10recap.pdf
+mv mom_recover2/* -v mom/
+ls
+cd mom/
+ls
+ls YOGA/
+ls `HLV YOGA/`
+cd ..
+ls
+cd ..
+ls
+ls mom_yoga_kit/
+ls Downloads/mom_recover2/
+ls
+lsblk
+sudo mount /dev/sdb4 /mnt/sdb4
+cd /mnt/sdb4/
+ls
+ls mom/
+ls `CỦA VỢ/`
+ls `CỦA VỢ/mom/`
+ls ~/Downloads/mom_recover/
+rm ~/Downloads/mom_recover/ -fr
+sudo rm ~/Downloads/mom_recover/ -fr
+ls
+ls mom/
+ls `CỦA VỢ/`
+<\n>ls `CỦA VỢ/mom/`<\n>
+ls mom
+ls
+cd Downloads/
+ls
+ls mom_recover2/
+ls
+cd mom/
+ls
+cd `HLV YOGA/`
+ls
+cd bg/
+ls
+ls mom/b939cc4a645eca00934f.jpg
+ls `CỦA VỢ/mom/YOGA/`
+ls
+ls `CỦA VỢ/`
+ls `CỦA VỢ/mom`
+ls mom
+cd ..
+ls
+cd ..
+ls
+ls mom_recover2/
+cd mom_recover2/
+ls
+ls YOGA/
+cd ..
+ls
+ls mom/YOGA/
+exit
+lsblk
+l
+ls
+mkdir mom_for_real
+rm mom_yoga_kit/ -fr
+ls
+ls mom_for_real/
+cd mom_for_real/mom/
+ls
+cd ..
+ls
+cd ..
+l
+ls
+mkdir outer_mom
+pkill swayidle
+exit
+sudo rsync -avh --progress `/mnt/sdb4/CỦA VỢ/` ~/mom_for_real/
+sudo rsync -avh --progress `/mnt/sdb4/mom/` ~/outer_mom/
+exit
+sudo umount /dev/sdb4 
+ls
+cd mom_for_real/
+ls
+cd mom/
+ls
+cd ..
+mv outer_mom/* -v mom_for_real/mom/
+ls
+ls mom_for_real/
+ls mom_for_real/mom/
+ls
+rm outer_mom/ -fr
+ls
+cd `mom_for_real/mom/HLV YOGA/`
+ls
+ls bg/
+imv blu
+imv bg/blu.png
+free -lwth --si -s 0.75
+ls
+cd ..
+ls
+cd ..
+ls
+ls Downloads/
+cd Downloads/
+rm mom* -fr
+ls
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT<\n>
+sudo parted /dev/sdb --script mklabel gpt \<\n>  mkpart primary 0% 100% \<\n>  set 1 msftdata on
+sudo pacman -S --needed --noconfirm parted dosfstools
+sudo parted /dev/sdb --script mklabel gpt mkpart primary 0% 100% set 1 msftdata on
+lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT<\n>
+lsblk
+exit
+sudo pacman -S ntfs-3g exfatprogs dosfstools gdisk parted smartmontools --needed --noconfirm
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1 -o ro
+ls
+sudo mkfs.fat -L SamsungExDisk /dev/sdb
+lsblk
+lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT
+sudo mkfs.fat -L SamsungExDisk /dev/sdb
+sudo mkfs.fat -L SamsungExDisk /dev/sdb1
+sudo mkfs.fat -n SamsungExDisk /dev/sdb1
+sudo mkfs.fat -n SamsungDisk /dev/sdb1
+sudo mkfs.fat -n samsungdisk /dev/sdb1
+sudo mkfs.fat -n SAMSUNGDISK /dev/sdb1
+lsblk
+lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT
+sudo mount /dev/sdb1 /mnt/sdb1
+ls /mnt/sdb1/
+ls
+sudo rsync -avh --progress mom_for_real/ /mnt/sdb1 
+ls
+lsblk
+sudo mkfs.ntfs -L SAMSUNGDISK /dev/sdb1; exit
+sudo umount /dev/sdb1
+lsblk -o NAME,SIZE,FSTYPE,LABEL,MOUNTPOINT
+lsblk
+exit
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1
+lsblk
+ls
+lsblk
+sudo fdisk -l
+lsblk
+exit
+sudo fdisk /dev/sdb<\n>
+lsblk
+sudo mkfs.exfat -n SAMSUNGDISK /dev/sdb1
+lsblk
+exit
+lsblk
+sudo fdisk -l
+exit
+lsblk
+ls
+lsblk
+sync
+sudo umount /dev/sdb1
+lsblk
+exit
+lsblk
+ls
+lsblk
+sudo fdisk /dev/sdb
+lsblk
+sudo mkfs.exfat -n KUIJIADISK /dev/sdb1
+lslk
+lsblk
+sudo mount /dev/sdb1 /mnt/sdb1
+ls /mnt/sdb1
+sudo umount /dev/sdb1
+exit
+pipewire 
+pipewire-pulse 
+sudo pacman -Syu --noconfirm; flatpak update
+exit
+exit
+lsblk
+exit
+cd Downloads/
+ls
+cd `Chon doi tuyen QG/`
+cd ..
+mv `Chon doi tuyen QG/` HSG_Anh
+cd HSG_Anh/
+ls
+tree
+find . -r "*.mp3"
+find  -r "*.mp3"
+sh -ce "find . *.mp3"
+sh -ce "find *.mp3"
+sh -ce "find *.mp3 ."
+list
+find . -type f -name "*.mp3"
+ls **/*.mp3 | where name ends-with .mp3
+...(glob **/*.mp3)
+echo ...(glob **/*.mp3)
+glob
+glob --help
+glob **/*.mp3
+glob **/*.mp3 | rm 
+glob **/*.mp3 | rm $it.name
+each
+each --help
+glob **/*.mp3 | each
+glob **/*.mp3 | each {rm }
+glob **/*.mp3 | each {rm $it.name}
+glob **/*.mp3 | each {rm $it}
+glob **/*.mp3 | each {rm $it.name}
+glob **/*.mp3 | each {|| rm $it.name}
+glob **/*.mp3 | each {|file| rm $file}
+ls
+glob **/*.mp3
+cd ..
+ls
+du HSG_Anh/
+ls
+7z a HSGANH.7z HSG_Anh/
+lsblk
+ls
+cd HSG_Anh/
+ls
+tree
+glob **/*.rar
+cd 2019-2020/
+ls
+7z x `HSGQG1920-Final version.rar`
+ls
+tree
+7z x `HSGQG1920-Final version.rar` -oweirdrar
+cd weirdrar/
+ls
+tree
+cd ..
+rm HSG*
+rm HSG* -fr
+ls
+exit
+poweroff
+sudo pacman -S shutter --noconfirm
+shutter
+sudo pacman -Rns shutter --noconfirm
+exit
+lsbl
+lsblk
+sudo dmesg -w
+lsblk
+exit
+exit
+exit
+lsblk
+exit
+lsblk
+exit
+sudo dd if=linuxmint.iso of=/dev/sdX bs=4M status=progress oflag=sync
+exit
+lsblk
+exit
+lsblk
+cd Downloads/
+ls Downloads/
+mv linuxmint-22.1-cinnamon-64bit.iso.torrent linuxmint.iso
+sudo dd if=linuxmint.iso of=/dev/sdb bs=4M status=progress oflag=sync
+lsblk
+sudo mount /dev/sdb /mnt/sdb -o ro
+lsblk
+sudo dd if=linuxmint.iso of=/dev/sdb bs=4M status=progress oflag=sync
+lsblk
+ls
+sudo mv lmde-6-cinnamon-64bit.iso linuxmint.iso
+sudo dd if=linuxmint.iso of=/dev/sdb bs=4M status=progress oflag=sync
+lsblk
+exit
+poweroff
+sudo umount /dev/sdb
+sudo umount /dev/sdb1
+lsblk
+ls
+cd Downloads/
+ls
+rm lmde-6-cinnamon-64bit.iso.torrent
+ls
+exit
+lsblk
+cd Downloads/
+ls
+sudo dd if=linuxmint-22.1-cinnamon-64bit.iso of=/dev/sdb bs=4M status=progress oflag=sync
+poweroff
+lsblk
+sudo umount /dev/sdb1
+sudo fdisk /dev/sdb
+lsblk
+sudo mkfs.exfat -n SAMSUNGDISK /dev/sdb1
+lsblk
+sudo umount /dev/sdb1
+lsblk
+sudo umount /dev/sdb2
+lsblk
+sudo fdisk /dev/sdb
+lsblk
+sudo mkfs.exfat -n SAMSUNGDISK /dev/sdb1
+lsblk
+sudo mkfs.exfat -n KUIJIADISK /dev/sdb1
+lsblk
+exit
+sudo smartctl -x /dev/sdb
+sudo smartctl -H /dev/sdb
+sudo smartctl -h /dev/sdb
+sudo smartctl -a /dev/sdb
+sudo smartctl -H /dev/sdb
+sudo smartctl -a /dev/sdb
+lsblk
+sudo umount /dev/sdb1
+lsblk
+sudo umount /dev/sdb1
+sudo smartctl -a /dev/sdb
+sudo smartctl -x /dev/sdb
+ls
+sudo umount /dev/sdb1
+exit
+lsblk
+sudo smartctl -x /dev/sdb
+lsblk
+exit
+rm Downloads/am.jpg Downloads/pm.jpg
+ls Downloads/
+exit
+mv `Downloads/Screenshot 2025-09-04 at 09-53-35 .png` Downloads/schedule.png
+ls
+cd Downloads/
+imv schedule.png
+magick schedule.png schedule.pjg
+magick schedule.png schedule.jpg
+imv schedule.jpg
+s
+rm schedule.pjg
+ls
+ls | sort
+ls | sort --help
+sort size
+size
+size linuxmint-22.1-cinnamon-64bit.iso
+tgpt "how to list files in a directory sorted by file size in nushell"
+sort-by --help
+ls | sort-by size
+ls | sort-by size --reverse
+rm schedule.png
+ls
+ls | sort-by modified
+ls | sort-by modified --r
+ls | sort-by modified -r
+exit
+lsblk
+flatpak update
+exit
+flatpak list
+flatpak run Sober
+flatpak run org.vinegarhq.Sober
+flatpak install flathub org.vinegarhq.Sober
+exit
+lsblk
+sudo pacman -Syu flatpak
+flatpak run org.vinegarhq.Sober
+flatpak override --reset org.vinegarhq.Sober
+flatpak uninstall --user --delete-data org.vinegarhq.Sober
+flatpak install --user flathub org.vinegarhq.Sober
+ping google.com
+flatpak install org.vinegarhq.Sober
+flatpak uninstall org.vinegarhq.Sober
+flatpak install flathub org.vinegarhq.Sober
+flatpak run org.vinegarhq.Sober
+flatpak --user override --nosocket=wayland org.vinegarhq.Sober
+sudo pacman -S --needed --noconfirm vulkan-icd-loader vulkan-tools
+sudo pacman -S --needed --noconfirm vulkan-icd-loader vulkan-tools mesa-vulkan
+sudo pacman -S --needed --noconfirm vulkan-icd-loader vulkan-tools mesa
+exit
+flatpak install flathub org.vinegarhq.Vinegar
+nvim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+exit
+nvim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+flatpak override --user --filesystem=xdg-run/app/com.discordapp.Discord:create --filesystem=xdg-run/discord-ipc-0 org.vinegarhq.Sober
+exit
+nvim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+nvim code.cpp\
+nvim code.cpp
+sudo pacman -Syu --noconfirm; 
+exit
+pkill firefix
+pkill firefox
+exit
+ping google.com
+exit
+sudo pacman -Syu --noconfirm; 
+exit
+nvim code.cpp
+poweroff
+nvim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+lsblk
+exit
+nvim .config/niri/config.kdl
+exit
+lsblk
+ls
+nvim .config/niri/config.kdl
+exit
+exit
+nvim .config/niri/config.kdl
+ext
+exit 
+flatpak run org.vinegarhq.Sober
+nvim ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+flatpak stop
+flatpak --help
+flatpak --default-arch
+flatpak ps
+exit
+fastfetch
+exit
+nvim code.cpp
+clang-format --style=Google code.cpp | wl-copy
+nvim code.cpp
+clang-format --style=Google code.cpp | wl-copy
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+nvim code.cpp
+exit
+nvim .config/nvim/lua/vim-options.lua
+exit
+nvim code.cpp
+exit
+lsblk
+sudo fdisk -l
+sudo smartctl -x /dev/sdb
+exit
+lsblk
+exit
+lsblk
+sudo dmesg -w
+lsblk
+ls
+ls `HLV YOGA/`
+lsblk
+ls
+7z a YOGA.zip `HLV YOGA/`
+poweroff
+ksblk
+lsblk
+ls Downloads/
+ls
+lsblk
+sudo rsync -avh --progress /run/media/dat/SAMSUNGDISK/mom/ Downloads/
+lsblk
+sudo rsync -avh --progress /run/media/dat/SAMSUNGDISK/mom/ Downloads/
+cd Downloads/
+ls
+mkdir mom
+ls
+mv *.jpg mom
+ls
+mv `Danh gia GIC/` DAN-8011410436000-02_QTT-TNCN-012024122024-L01.xml `Mau bao cao QMS (ver 2024.05.22)_Phuong Dong_1.xlsx` `mẫu 08.MST.doc` `Mẫu hợp đồng thuê nhà ở.docx` advertisement* `Chứng từ TNCN 2024 - 16 - Md Thanh.pdf` CV.pdf `Cá nhân/` `HLV YOGA/` mom
+ls
+mv mom/schedule.jpg .
+ls
+ls YOGA/
+mv YOGA/ mom/
+ls
+ls mom
+du mom
+ls
+sudo rsync -avh --progress /run/media/dat/SAMSUNGDISK/mom/ Downloads/mom
+ls
+lsblk
+sudo rsync -avh --progress /run/media/dat/SAMSUNGDISK/mom/ Downloads/mom
+sudo rsync -avh --progress /run/media/dat/SAMSUNGDISK/mom/ mom
+ls
+exit
+ls
+ls `HLV YOGA/`
+rm `HLV YOGA/` -fr
+cd Downloads/
+ls
+imv-dir Downloads/schedule.jpg
+exit
+cd Documents/schools 
+ls
+./schedule.ods
+chmod +x schedule.ods
+./schedule.ods
+exit
+7z a mom.zip mom/
+ls
+poweroff
+lsblk
+mkdir forGGDRIVE
+ls Dow
+ls Downloads/
+cd Downloads/
+mv `CHUYÊN ĐỀ VDC 1 - TÍNH ĐƠN ĐIỆU HÀM SỐ (2026).pdf` math.pdf physics10recap.pdf schedule.jpg ../forGGDRIVE/
+ls
+cd ..
+ls forGGDRIVE/
+cp -rv Documents/ forGGDRIVE/
+cls
+exit
+ls
+ls forGGDRIVE/
+rm forGGDRIVE/Documents/ -fr
+ls
+du Documents/
+du Pictures/
+du forGGDRIVE/
+cd niriwm-dotfiles/
+cp -vr ~/.config/niri/ .config/
+cat ~/Documents/__protected__/nsfw/
+cat ~/Documents/__protected__/keys/github-token.txt | wl-copy
+git add .
+git commit 
+git commit -m "."
+git push
+cd ..
+ls
+sudo rsync -avh --progress nushell// ~/.config/nushell/
+sudo rsync -avh --progress fastfetch/ ~/.config/fastfetch/
+sudo rsync -avh --progress fcitx5/ ~/.config/fcitx5/
+sudo rsync -avh --progress fuzzel// ~/.config/fuzzel/
+ls
+exit
+ls
+exit
+nu-check 
+nu-highlight 
+nu_plugin_custom_values 
+numfmt 
+ls
+nvim .config/nushell/config.nu
+exit
+ls
+niri-session 
+lexit
+exit
+sudo pacman -S ollama --noconfirm
+ollama run phi3
+lsblk
+ollama serve
+exit
+exit
+sudo pacman -S lxappearance
+pacman -Ss catpuccin
+pacman -Ss catppuccin
+pacman -Ss catp
+ls
+lsblk
+fatfetch
+fastfetch
+ls
+git clone https://github.com/EliverLara/firefox-nordic-theme && cd firefox-nordic-theme<\n>./scripts/install.sh -g
+git clone https://github.com/EliverLara/firefox-nordic-theme; cd firefox-nordic-theme<\n>./scripts/install.sh -g
+exit
+cd .config/nvim/
+ls
+cd lua/
+ls
+cd plugins/
+ls
+nvim nordic.lua
+ls
+cd ..
+ls
+nvim plugins.lua
+nvim vim-options.lua
+nvim plugins/catppuccin.lua
+nvim plugins/gruvbox.lua
+nvim plugins/catppuccin.lua
+nvim plugins/gruvbox.lua
+nvim 
+lxappearance 
+sudo pacman -Ss noto
+sudo pacman -Ss oto-fonts-cjk noto-fonts-emoji
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji
+lxappearance 
+exit
+Xwayland lxappearance
+Xwayland -fullscreen lxappearance
+Xwayland -fullscreen
+lxappearance | Xwayland -fullscreen 
+ls
+rm firefox-nordic-theme/ -fr
+cd Downloads/
+ls
+tar xvzf Nordic-darker-v40.tar.xz
+tar xvf Nordic-darker-v40.tar.xz
+ls
+cd Nordic-darker-v40/
+ls
+cd ..
+ls
+rm mom.zip mom/ -fr
+ls
+rm sq.mp3 
+rm llm/ -fr
+rm linuxmint-22.1-cinnamon-64bit.iso
+rm Win10_22H2_English_x64v1.iso
+rm HANDOUT.docx
+tar xf Nordic-darker.tar.xz
+cd Nordic-darker/
+ls
+cd ..
+sudo mv Nordic-darker-v40/ Nordic-darker/ /usr/share/themes/
+xwayland-satellite --display :1 &
+sudo pacman -S xwayland-satellite
+xwayland-satellite --display :1 &
+xwayland-satellite --display 1 &
+bash
+ls
+xwayland-satellite --display :1
+Xwayland --display :1
+lxappearance 
+sudo pacman -S xorg
+sudo pacman -S xfce4
+sudo pacman -S xorg-xwayland
+bash
+exit
+ls
+lsblk
+ls
+lsblk
+sudo pacman -S cinnamon
+exit
+exit
+nvim code.cpp
+sudo pacman -S clangd
+sudo pacman -S clang
+sudo pacman -S unzip
+exit
+ls
+ls .config/waybar/
+lsblk
+sudo mount /dev/sdb2 /mnt/sdb2
+sudo mount /dev/sdb2 /mnt/sdb2 --mkdir
+ls
+sudo rsync -avh --progress /mnt/sdb2/home/dat/.config/waybar/ .config/waybar/
+pkill waybar
+waybar
+lsblk
+sudo umount /dev/sdb2
+lsblk
+exiit
+exit 
+git clone https://github.com/EliverLara/firefox-nordic-theme
+cd firefox-nordic-theme/
+ls
+ls theme/
+cd scripts/
+ls
+chmod +x install.sh
+ls
+./install.sh -g
+sudo ./install.sh -g
+ls
+exit
+ls
+rm firefox-nordic-theme/ -fr
+sudo rm firefox-nordic-theme/ -fr
+s
+exit
+free -lwth --si -s 0.75
+fastfetch
+exit
+fastfetch
+sudo pacman -Rns cinnamon --noconfirm
+exit
+sudo pacman -S fcitx5
+exit
+cd niriwm-dotfiles/
+ls
+rm yay-bin/ -fr
+cd setup-arch.sh
+nvim setup-arch.sh
+./setup-arch.sh
+cd ..
+cd Downloads/
+ls
+rm Nordic-*
+rm SupremeDuelist/ -fr
+rm nordic-wall.jpg
+cd ..
+ls
+cd Documents/
+ls
+cd ..
+ls
+cd Documents/
+ls
+cd ..
+ls
+cd Pictures/
+ls
+imv `Screenshot from 2025-08-27 12-49-42.png`
+imv schedule.jpeg
+rm schedule.jpeg
+rm spicy-bg.7z
+ls widescreens/
+ls Wallpapers/
+ls
+imv-dir Wallpapers/2girls-halloween.jpg
+rm Wal/ls
+ls Wal/
+rm Wal* -fr
+ls
+rm scre*
+rm Screenshot* -fr
+ls
+imv 1.jpg
+imv `Phạm Tấn Đạt.jpg`
+mv `Phạm Tấn Đạt.jpg` me.jpg
+cd ..
+ls
+cd Downloads/
+ls
+cd ..
+lsblk
+sudo mount /dev/sdb2 /mnt/sdb2 --mkdir
+ls /mnt/sdb2/home/dat/Downloads/
+cd /mnt/sdb2/home/dat/Downloads/
+ls
+cp `CHUYÊN ĐỀ VDC 1 - TÍNH ĐƠN ĐIỆU HÀM SỐ (2026).pdf` math.pdf physics10recap.pdf schedule.jpg ~/Downloads/
+cd
+sudo umount /dev/sdb2
+ls
+cd Downloads/
+ls
+imv schedule.jpg
+exit
+nvim .config/niri/config.kdl
+exit
+fastfetch
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+./code
+exit
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+sudo pacman -S tgpt
+tgpt "will i get an integer if I divide an even number by an odd number, and vice versa?"
+exit
+ls
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+ls
+exit
+exit
+fastfetch
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+abc abc 123abc2acb1da00 cc
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+abc abc 123abc2acb1da00 cc
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./cod
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+ls
+rm passw.out
+./code
+sudo pacman -Syu --noconfirm;
+exit
+imv-dir Downloads/schedule.jpg
+exit
+nvim .var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+nvim .var/app/org.vinegarhq.Sober/config/sober/config.json
+exit
+sudo pacman -Syu --noconfirm mesa vulkan-tools vulkan
+sudo pacman -Syu --noconfirm mesa vulkan-tools  --needed
+pacman -Ss vulkan
+fastfetch
+exit
+tgpt "define discrete; concise reply"
+pacman -Ss amd
+sudo pacman -S vulkan-radeon
+sudo pacman -S vulkan-intel
+sudo pacman -S vulkan-mesa-layers
+exit
+lsblk
+pkill s
+sudo mkfs.ntfs -L SAMSUNGDISK /dev/sdb1; reboot
+mkfs.ntfs 
+sudo mkfs.ntfs -Q -L SAMSUNGDISK /dev/sdb1; reboot
+sudo mkfs.ntfs -Q -L SEAGATEDISK /dev/sdb1; 
+lsblk
+sudo fdisk /dev/sdb
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+imv-dir Downloads/schedule.jpg
+nvim code.cpp
+sudo pacman -Syu --noconfirm ; flatpak update; poweroff
+imv-dir Downloads/schedule.jpg
+exit
+exit
+sudo pacman -S liberoffice-still
+sudo pacman -S liberoffice
+sudo pacman -Ss liberoffice
+sudo pacman -Ss libeoffice
+sudo pacman -Ss libreoffice
+sudo pacman -S libreoffice
+sudo pacman -S libpaper coin-or-mp 
+ls
+exit
+cd Downloads/
+ls
+exit
+mv `Screenshot 2025-09-08 at 23-30-58 .png` schedule.jpg
+ls
+imv-dir Downloads/schedule.jpg
+cd ..
+imv-dir Downloads/schedule.jpg
+exit
+nvim niriwm-dotfiles/setup-arch.sh
+nvim .config/niri/config.kdl
+exit
+nvim code.cpp
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+ls
+cd niriwm-dotfiles/
+ls
+cp -vr ~/.config/niri/ .config/
+ls
+cd ..
+ls
+cd Documents/codes/generic/
+ls
+mkdir "Lý thuyết số" 
+ls
+cd `Lý thuyết số/`
+ls
+mv `~/Downloads/BÀI TẬP VỀ LÝ THUYẾT SỐ (8-13).docx` .
+ls
+nvim code{8-13}.cpp
+touch code{8-13}.cpp
+ls
+rm `code{8-13}.cpp`
+ls
+cat | save -f 8.cpp
+nvim 8.cpp
+clang-format --style=Google 8.cpp | wl-copy
+nvim 8.cpp
+pip
+sudo pacman -S python-pip --noconfirm
+pip
+pip install clang-format --break-system-packages
+clang-format --style=Google 8.cpp | wl-copy
+nvim 8.cpp
+bash
+nvim 8.cpp
+nvim .config/alacritty/fonts.toml
+exit
+sudo pacman -S wf-recorder
+exit
+mv 8.cpp 8_help.cpp
+nvim 8.cpp
+ls
+rm 8_help.cpp
+ls
+nvim code.cpp
+rm code.cpp
+sudo pacman -Syu --noconfirm ; flatpak update
+nvim 9.cpp
+poweroff
+imv-dir Downloads/schedule.jpg
+exit
+nvim code.cpp
+g
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+g++ code.cpp -o code -O2 -DNDEBUG
+./code
+lsblk
+cd niriwm-dotfiles/
+ls
+nvim setup-arch.sh
+cp setup-arch.sh setup-arch-wsl.sh
+nvim setup-arch-wsl.sh
+ls
+git add .
+git commit -m "add setup script for wsl"
+bat ~/Documents/__protected__/keys/github-token.txt | wl-copy
+git push
+exit
+exit
+exit
+im
+imv-dir Downloads/schedule.jpg
+ls
+sudo pacman -Syu --noconfirm ; flatpak update; poweroff
+lsblk
+cd Documents/
+ls
+cd codes/generic/
+ls
+du
+du .
+...(glob **/*.mp3)
+(glob **/*.mp3)
+(glob **/*.pdf)
+(glob **/*.pdf)|ls
+(glob **/*.pdf)
+(glob **/*.doc)
+(glob **/*.docx)
+ls
+cd ..
+ls
+7z a generic.zip generic/
+exit
+nvim code.cpp
+ls Documents/codes/codewars/
+exit
+nvim .config/niri/config.kdl
+exit
+free -lwth --si -s 0.75
+exit
+lsblk
+cd Downloads/
+7z x SAT.zip -oSAT
+cd SAT/
+ls
+cd SAT/
+sl
+l
+ls
+tree
+ls ../..
+ls **/*
+ls **/
+ls **/**
+ls **/**/*
+ls Verbal/
+firefox `Math/SAT Circular Equations (Med&Easy) w answers.pdf`
+exit
+fastfetch
+ls
+sudo rm .config/fastfetch/ -fr
+fastfetch
+exit
+nvim millerrabin.cpp
+nvim .config/
+exit
+lsbok
+lsblk
+ls
+rm millerrabin.cpp 
+ls
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+nvim 9.cpp
+sudo pacman -Syu --noconfirm ; flatpak update
+exit
+camtirx
+cmatrix
+sl
+sudo pacman -S sl
+loop
+loop --help
+loop { echo "hi" };
+loop { sleep 1s; echo "hi" };
+loop { sleep ; echo "hi" };
+sleep --help
+loop { sleep 1sec; echo "hi" };
+loop { sleep 1sec; echo "hi"; };
+echo
+echo h
+echo "hi"
+loop { echo "hi"; };
+loop { echo "hi" };
+loop { echo "hi" }
+loop
+loop {}
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1}
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1}; echo $x
+mut x = 0; loop { if $x > 10 { break }; echo "hi"; $x = $x + 1 };
+mut x = 0; loop { if $x > 10 { break }; print "hi"; $x = $x + 1 };
+mut x = 0; loop { if $x > 10 { break }; sl; $x = $x + 1 };
+loop {sl};
+free -lwth --si -s 0.75
+exit
+exit
+cd Downloads/
+ls
+7z x `BIOGRAPHY- LESSON 10 22.24 - Hung.zip`
+ls
+exit
+ls
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+mv 9.cpp 10.cpp
+cd `Documents/codes/generic/Lý thuyết số/`
+g++ 9.cpp -o 9 -O2 -DN_DEBUG
+g++ 9.cpp -o 9 -O2 -DNDEBUG
+./9
+nvim 9.cpp
+nvim 11.cpp
+nvim 10.cpp
+exit
+g++ 10.cpp -o 10 -O2 -DNDEBUG
+./10
+g++ 10.cpp -o 10 -O2 -DNDEBUG
+./10
+g++ 11.cpp -o 11 -O2
+g++ 11.cpp -o 11 -O2 -DNDEBUG
+./11
+nvim 12.cp
+nvim 12.cpp
+ls
+cp 11.cpp 12.cpp
+g++ 12.cpp -o 12 -O2 -DNDEBUG
+./12
+nvim 12.cpp
+g++ 12.cpp -o 12 -O2 -DNDEBUG
+./12
+nvim 12.cpp
+imv-dir Downloads/schedule.jpg
+imv-dir ~/Downloads/schedule.jpg
+nvim 12.cpp
+exit
+sudo pacman -Syu --noconfirm ; flatpak update; poweroff
+nvim .config/waybar/config.jsonc
+pkill waybar
+waybar
+nvim .config/waybar/config.jsonc
+waybar
+nvim 
+waybar
+exit
+nvim .config/waybar/config.jsonc
+waybar
+exit
+sh -ce "waybar &"
+exit
+cd Documents/codes/codeforces/
+ls
+sudo pacman -S npm --noconfirm
+exit
+bat .local/state/nvim/lsp.log
+pacman -Ss kotlin
+sudo pacman -S kotlin
+exit
+lsblk
+ls
+exit
+free -lwth --si -s 0.75
+lls
+ls
+lslblk
+exit
+ls Downloads/
+mv `Downloads/BÀI TẬP VỀ LÝ THUYẾT SỐ (ĐỀ BÀI).docx` `Documents/codes/generic/Lý thuyết số/`
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+rm `BÀI TẬP VỀ LÝ THUYẾT SỐ (8-13).docx`
+ls
+mv `BÀI TẬP VỀ LÝ THUYẾT SỐ (ĐỀ BÀI).docx` Problems.docx
+ls
+free
+lsblk
+exit
+lsblk
+ls
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+nvim 13.cpp
+ls
+nemo
+nemo .
+sh -ce "nemo . &"
+sh -ce "nemo ."
+sh -ce "nemo .&"
+exit
+ls
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+g++ 1.cpp -o 1 -DNDEBUG -O2
+./1
+g++ 1.cpp -o 1 -DNDEBUG -O2; ./1
+nvim 1.cpp
+exit
+exit
+imv-dir ~/Downloads/schedule.jpg
+imv ~/Downloads/schedule.jpg
+exit
+nvim /boot/loader/loader.conf
+sudo /boot/loader/entries/2025-09-07_05-44-36_linux-zen.conf
+sudo nvim /boot/loader/entries/2025-09-07_05-44-36_linux-zen.conf
+sudo nvim /boot/loader/loader.conf
+exit
+systemd-analyze blame
+systemd-analyze time
+systemd-analyze plot > boot.svg
+sh -ce "systemd-analyze plot > boot.svg"
+imv-dir boot.svg
+ls
+rm boot.svg
+ls
+sudo nvim /boot/loader/loader.conf
+cd /boot/loader/
+ls
+ls entries/
+ls keys/
+exit
+sudo bootctl 
+sudo bootctl --help
+sudo bootctl update
+sudo bootctl install
+sudo bootctl set-
+sudo bootctl set-t
+sudo bootctl set-timeout 1
+sudo nvim /etc/mkinitcpio.conf
+sudo nvim entries/2025-09-07_05-44-36_linux-zen.conf
+systemd-analyze time
+systemd-analyze blame
+systemctl status man-db.service man-db.timer
+systemctl list-timers --all | grep -i man-db || true
+systemctl list-timers --all | grep -i man-db or true
+sh -ce "systemctl list-timers --all | grep -i man-db || true"
+sudo systemctl disable --now man-db.timer<\n>
+systemctl status man-db.timer<\n>
+sudo systemctl mask man-db.service
+sudo systemctl unmask man-db.service
+sudo systemctl mask man-db.service
+exit
+ls
+reboot
+sudo bootctl set-timeout 0
+reboot
+sudo pacman -Rns lxappearance
+exit
+sblk
+lsblk
+exit
+imv-dir boot.svg
+imv ~/Downloads/schedule.jpg
+exit
+g++ code.cpp -o code -O2 -DNDEBUG
+lexit
+exit
+free -lwth --si -s 0.75
+exit
+nvim code.cpp
+exit
+cd `Documents/codes/generic/Lý thuyết số/`
+nvim .config/niri/config.kdl
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+nvim 2.cpp
+./2
+./
+./2
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+nvim 2.cpp
+cat | save -f 2.inp
+g++ 2.cpp -o 2 -DNDEBUG -O2
+./2
+cat | save -f 2.inp
+sh
+g++ 2.cpp -o 2 -DNDEBUG -O3 -march=native -Ofast -pipe -static
+./2
+ls
+nvim 2.cpp
+g++ 2.cpp -o 2 -DNDEBUG -O3 -march=native -Ofast -pipe -static
+./2
+bat 2.out
+sh -ce "time ./2"
+bat 2.inp
+cat | save -f 2.inp
+sh -ce "time ./2"
+cat | save -f 2.inp
+sh -ce "time ./2"
+nvim 2.cpp
+ls
+nvim 2.cpp
+ls
+exit
+poweroff
+cd `Documents/codes/generic/Lý thuyết số/`
+nvim 3.cpp
+g++ 3.cpp -o 3 -DNDEBUG -O3 -Ofast -pipe 
+g++ 3.cpp -o 3 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./3
+nvim 3.cpp
+ls
+g++ 3.cpp -o 3 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./3
+nvim 3.cpp
+g++ 3.cpp -o 3 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./3
+nvim 3.cpp
+g++ 3.cpp -o 3 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./3
+sh -ce "time ./3"
+ls
+lsl
+exit
+lsblk
+cd `Documents/codes/generic/Lý thuyết số/`
+g++ 4.cpp -o 4 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+nvim 4.cpp
+./4
+cp 4.cpp 6.cpp
+nvim 6.cpp
+g++ 6.cpp -o 6 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./6
+nvim 6.cpp
+lsblk
+ls /bin
+ls /sbin
+ls /opt
+cd `Documents/codes/generic/Lý thuyết số/`
+nvim 5.cpp
+g++ 5.cpp -o 5 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./5
+nvim 5.cpp
+./5
+g++ 5.cpp -o 5 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./5
+nvim 
+nvim 5.cpp
+g++ 5.cpp -o 5 -DNDEBUG -O3 -Ofast -pipe -static -march=native
+./5
+nvim code.cpp
+exit
+sudo pacman -Syu --noconfirm ; flatpak update; poweroff
+ping google.com
+ntui
+nmtui
+iw config
+iwctl
+ip addr show
+exit
+ping google.com
+ls
+lsblk
+nmtui
+lsblk
+ping google.com
+lsb
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+rm `;`
+lsl
+ls
+list | which executable
+ls | which file cpp
+ls | which file=.cpp
+ls | which file=cpp
+ls | where file=cpp
+ls | where file 
+ls | where file *.c.p
+ping google.com
+nmtui
+ping google.com
+nmtui
+exit
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+nvim 8.cpp
+nvim 7.cpp
+g++ 7.cpp -o 7 -O3 -Ofast -DNDEBUG -static -pipe -march=native
+nvim 7.cpp
+g++ 7.cpp -o 7 -O3 -Ofast -DNDEBUG -static -pipe -march=native
+./7
+nvim 7.cpp
+g++ 7.cpp -o 7 -O3 -Ofast -DNDEBUG -static -pipe -march=native
+./7
+nvim 7.cpp
+g++ 7.cpp -o 7 -O3 -Ofast -DNDEBUG -static -pipe -march=native
+./7
+ls
+rm `;`
+nvim 2.cpp
+rm 2.inp 2.out
+ls
+cd `Documents/codes/generic/Lý thuyết số/`
+nvim 14
+nvim 14.cpp
+ls
+nvim run.sh
+chmod +x run.sh
+./run.sh 14.cpp
+nvim run.sh
+./run.sh 14.cpp
+nvim run.sh
+nvim 14.cpp
+nvim run.sh
+./run.sh 14.cpp
+nvim run.sh
+./run.sh 14.cpp
+ls
+sudo mv run.sh /usr/bin/run 
+exit
+run
+sudo nvim /usr/bin/run
+run 
+sudo nvim /usr/bin/run
+sh
+bash
+ls
+run
+cd `Documents/codes/generic/Lý thuyết số/`
+run 14.cpp
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+nvim 14.cpp
+./14
+./329239
+./14
+nvim 14.cpp
+run 14.cpp
+nvim 
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+nvim 14.cpp
+run 14.cpp
+28
+nvim 14.cpp
+run 14.cpp
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 14.cpp
+run 14.cpp
+./14
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+ls
+nvim 19.cpp
+./19
+ru
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+nvim 
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+nvim 19.cpp
+run 19.cpp
+./19
+cp 19.cpp 18.cpp
+nvim 18.cpp
+run 18.cpp
+nvim 18.cpp
+nvim 14.cpp
+nvim 18.cpp
+run 18.cpp
+nvim 18.cpp
+run 18.cpp
+nvim millerrabin.cpp
+nvim 18.cpp
+run 18.cpp
+cd Documents/ielts/stolen-course/1923/
+s
+ls
+mv ~/Downloads/*.docx .
+ls
+rm `GS & L Unit 1 (nhom 1 A2).docx`
+ls
+nvim 18.cpp
+exit
+exit
+free -lwth --si -s 0.75
+ls
+exi
+exit
+pkill waybar
+sh -ce "waybar&"
+pkill swayidle
+ls
+lsblk
+imv
+imv ~/Downloads/schedule.jpg
+exit
+fastfetch
+exit
+imv ~/Downloads/schedule.jpg
+exit
+lsblk
+cd `Documents/codes/generic/Lý thuyết số/`
+ls
+sudo pacman -Syu --noconfirm ; flatpak update; poweroff
+sudo pacman -Rns cinnamon
+sudo pacman -Rns cinnamon-desktop
+sudo pacman -Rns cinnamon-desktop nemo
+sudo pacman -S nemo
+sudo pacman -S ffmpegthumbnailer odt2txt libgsf catdc
+sudo pacman -S ffmpegthumbnailer odt2txt libgsf catdoc
+sudo pacman -S tk
+exit
+nvim code.cpp
+exit
+fastfetch
+im
+imv ~/Downloads/schedule.jpg
+cd Downloads/
+ls
+rm UNIT1_GS_LANGUAGE_G1_A2.docx
+rm *.torrent
+chmod +x lovecraft_locker_free_public_linux.x86_64
+ls 
+ls -a
+ls .games/
+mv lovecraft_locker_free_public_linux.x86_64 .games/
+ls .videos/
+mpv .videos/3804.mp4
+mv .videos/3804.mp4 .videos/slick-boobs.mp4
+ls
+rm `.games/Summer Memories/` -fr
+rm `CHUYÊN ĐỀ VDC 1 - TÍNH ĐƠN ĐIỆU HÀM SỐ (2026).pdf`
+firefox math.pdf
+mv math.pdf open-mind-math.pdf
+ls
+ls SAT/
+rm SAT/ -f
+ls
+mv 'Let’s work slow and easy [_Q8Ih2SW-TE].opus' work.opus
+rm `User Manual W10_Acer_1.0_A_A.pdf`
+rm inspiron3521reference.pdf
+ls
+exit
+exit
+ls
+cd niriwm-dotfiles/
+ls
+cp -rv ~/.config/niri/ .config/
+cp -rv ~/.config/nvim/ .config/
+cp -rv ~/.config/alacritty/ .config/

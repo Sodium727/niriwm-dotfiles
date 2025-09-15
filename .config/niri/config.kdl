@@ -103,8 +103,8 @@ output "LVDS-1" {
   // position x=1280 y=0
   // variable-refresh-rate // on-demand=true
   focus-at-startup
-  // background-color "#003300"
-  backdrop-color "#01011C"
+  background-color "#01011c"
+  backdrop-color "#01011c"
 }
 
 /////////////
@@ -119,7 +119,7 @@ layout {
     // always-center-single-column
     // empty-workspace-above-first
     default-column-display "tabbed" // or "normal"
-    background-color "#000000"
+    background-color "#01011c"
 
     preset-column-widths {
         proportion 0.33333
@@ -229,7 +229,7 @@ screenshot-path null
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
 animations {
   // Uncomment to turn off all animations.
-  // off
+  off
 
   // Slow down all animations by this factor. Values below 1 speed them up instead.
   slowdown 0.6666667

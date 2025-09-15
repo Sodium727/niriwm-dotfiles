@@ -2,6 +2,7 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.cmd("set linebreak")
 vim.g.mapleader = " "
 vim.g.background = "dark"
 
@@ -14,6 +15,8 @@ vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<leader>x', ':q<CR>')
 vim.opt.number = true
 
 vim.keymap.set('n', '<C-a>', 'ggVG')
+vim.keymap.set('n', '<C-s>', ':w<CR>')

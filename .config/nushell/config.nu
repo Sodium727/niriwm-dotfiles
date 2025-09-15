@@ -21,4 +21,5 @@
 
 $env.config.show_banner = false
 $env.config.buffer_editor = "nvim"
-source $"($nu.home-path)/.cargo/env.nu"
+# source $"($nu.home-path)/.cargo/env.nu"
+$env.PATH = ($env.PATH | append $"($env.HOME)/.local/bin")

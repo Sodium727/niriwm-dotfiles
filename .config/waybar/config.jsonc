@@ -2,12 +2,12 @@
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
     // "height": , // Waybar height (to be removed for auto height)
-    "margin-top": 4,
-    "margin-left": 4,
-    "margin-right": 4,
+    "margin-top": 1,
+    "margin-left": 1,
+    "margin-right": 1,
     "margin-bottom": 1,
     // "width": 1280, // Waybar width
-    "spacing": 8, // Gaps between modules (4px)
+    "spacing": 4, // Gaps between modules (4px)
     "modules-left": [
         // "wlr/taskbar",
         "pulseaudio",
