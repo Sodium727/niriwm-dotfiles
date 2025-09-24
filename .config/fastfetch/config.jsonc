@@ -20,7 +20,7 @@
   "display": {
     "separator": "",     // Separator between keys and values
     "color": {
-      "keys": "red",    // Key color
+      "keys": "yellow",    // Key color
       "title": "red"     // Title color
     },
     "key": {
@@ -49,6 +49,10 @@
   "modules": [
     // "title"
     // "separator",
+    {
+      "type": "title",
+      "format": "--- HARDWARE ---",
+    },
     "os",
     {
       "type": "wm",
@@ -62,6 +66,10 @@
     {
       "type": "title",
       "format": " "
+    },
+    {
+      "type": "title",
+      "format": "~~~ SOFTWARE ~~~",
     },
     {
       "type": "host",
@@ -97,8 +105,15 @@
       "format": " "
     },
     {
+      "type": "title",
+      // "format": "\/\/\/ RESOURCE \/\/\/",
+      // "format": "||| RESOURCE |||",
+      "format": "=== RESOURCE ===",
+    },
+    {
       "type": "memory",
       "key": "RAM",
+      "format": "{percentage-bar} [{used} / {total}]",
       "percent": {
         "green": 30,   // Values below 30% in green
         "yellow": 70   // 30-70% in yellow, >70% in red
@@ -108,6 +123,7 @@
     {
       "type": "disk",
       "key": "Storage",
+      "format": "{size-percentage-bar} [{size-used} / {size-total}]",
     },
     // "localip",
     "battery",
